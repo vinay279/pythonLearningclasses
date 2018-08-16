@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e805109d-6505-49f5-b59f-533c0a11253a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileIO/ReadingLinesAndItsFunctions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinklistExamples/Linklist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinklistExamples/Linklist_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinklistExamples/Linklist_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackExample/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/StackExample/Stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackExample/StackExample.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,28 +32,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="py" value="25" />
+          <entry key="py" value="39" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="25" />
+          <entry key="Python" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="43" />
           <entry key="dummy" value="35" />
-          <entry key="py" value="3240" />
+          <entry key="py" value="4264" />
           <entry key="txt" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="119" />
-          <entry key="Python" value="3283" />
+          <entry key="Python" value="4307" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -62,9 +68,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="37" selection-start-line="37" selection-end-line="40" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Calculator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+              <folding>
+                <marker date="1534253622384" expanded="true" signature="58:59" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py">
+        <entry file="file://$PROJECT_DIR$/StackExample/Stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileIO/FileIO.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileIO/FileWriteData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileIO/zippingAndunzipping.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Queue/Queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <element signature="e#47#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Student_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <marker date="1534413780242" expanded="true" signature="16:21" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -123,7 +201,10 @@
         <option value="$PROJECT_DIR$/FileIO/ReadingLinesAndItsFunctions.py" />
         <option value="$PROJECT_DIR$/FileIO/zippingAndunzipping.py" />
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Calculator.py" />
+        <option value="$PROJECT_DIR$/LinklistExamples/Linklist.py" />
+        <option value="$PROJECT_DIR$/LinklistExamples/Linklist_1.py" />
         <option value="$PROJECT_DIR$/Queue/Queue.py" />
+        <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Student_1.py" />
         <option value="$PROJECT_DIR$/StackExample/Stack.py" />
       </list>
     </option>
@@ -150,12 +231,6 @@
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
               <item name="PythonLearningPractice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonLearningPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
@@ -190,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LinkList">
+  <component name="RunManager" selected="Python.Student_1">
     <configuration name="ClassCalculator" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,27 +300,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Constructor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DataTypes" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonLearningclasses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/DataTypes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,7 +350,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonLearningclasses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Queue/Queue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Student_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,7 +383,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Student_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,18 +395,18 @@
     <list>
       <item itemvalue="Python.ClassCalculator" />
       <item itemvalue="Python.Linklist" />
-      <item itemvalue="Python.__init__" />
-      <item itemvalue="Python.DataTypes" />
       <item itemvalue="Python.Constructor" />
       <item itemvalue="Python.LinkList" />
+      <item itemvalue="Python.Queue" />
+      <item itemvalue="Python.Student_1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Student_1" />
+        <item itemvalue="Python.Queue" />
+        <item itemvalue="Python.Linklist" />
         <item itemvalue="Python.LinkList" />
         <item itemvalue="Python.Constructor" />
-        <item itemvalue="Python.DataTypes" />
-        <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.Linklist" />
       </list>
     </recent_temporary>
   </component>
@@ -369,7 +444,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.11433087" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.11433087" />
       <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -439,20 +514,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StackExample/StackExample.py">
+    <entry file="file://$PROJECT_DIR$/FileIO/abc.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist_1.py">
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/FileWriteData.py">
+    <entry file="file://$PROJECT_DIR$/StackExample/StackExample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state relative-caret-position="510">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -463,36 +545,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/abc.txt">
+    <entry file="file://$PROJECT_DIR$/FileIO/FileWriteData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FileIO/zippingAndunzipping.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Queue/Queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Calculator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FileIO/ReadingLinesAndItsFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -501,15 +562,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StackExample/Stack.py">
+    <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="75">
+          <caret line="37" selection-start-line="37" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+          <folding>
+            <marker date="1534253622384" expanded="true" signature="58:59" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue/Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#47#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Student_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1534413780242" expanded="true" signature="16:21" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StackExample/Stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

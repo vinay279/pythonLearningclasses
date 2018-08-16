@@ -1,62 +1,46 @@
 # importing "collections" for deque operations
 import collections
+from datetime import date
+
+
 class Queue:
-# initializing deque
-de = collections.deque([])
 
-# using append() to insert element at right end
-# inserts 4 at the end of deque
-de.append(4)
+    def __init__(self):
+        self.items.collections.deque([])
 
-# printing modified deque
-print("The deque after appending at right is : ")
-print(de)
+    def append(self, item):
+        self.items.collections.deque.append(item)
 
-# using appendleft() to insert element at right end
-# inserts 6 at the beginning of deque
-de.appendleft(6)
+    def appendleft(self, item):
+        self.items.collections.deque.appendleft(item)
 
-# printing modified deque
-print("The deque after appending at left is : ")
-print(de)
+    def pop(self):
+        return self.items.collections.dequepop()
 
-# using pop() to delete element from right end
-# deletes 4 from the right end of deque
-de.pop()
+    # for pop left item
+    def popleft(self):
+        return self.items.collections.dequepopleft()
 
-# printing modified deque
-print("The deque after deleting from right is : ")
-print(de)
+    def size(self):
+        return len(self.items.collections.deque)
 
-# using popleft() to delete element from left end
-# deletes 6 from the left end of deque
-de.popleft()
+Queue = Queue()
 
-# printing modified deque
-print("The deque after deleting from left is : ")
-print(de)
+while True:
+    print("1. Append")
+    print("2. Appendleft")
+    print("3. pop")
+    print("4. popleft")
+    print("5. size")
+    menu = int(input("Choose an action:"))
 
-print("Please select operation -\n" \
-      "1. appendleft\n" \
-      "2. appendright\n" \
-      "3. popleft\n"
-      "4. popleft\n")
-InputData=int(input('Enter the data you want to process'))
-
-if select == '1':
-    print(number_1, "+", number_2, "=",
-          add(number_1, number_2))
-
-elif select == '2':
-    print(number_1, "-", number_2, "=",
-          subtract(number_1, number_2))
-
-elif select == '3':
-    print(number_1, "*", number_2, "=",
-          multiply(number_1, number_2))
-
-elif select == '4':
-    print(number_1, "/", number_2, "=",
-          divide(number_1, number_2))
-else:
-    print("Invalid input")
+    if menu == 1:
+        Queue.append()
+    elif menu == 2:
+        Queue.apendleft()
+    elif menu == 3:
+        Queue.pop()
+    elif menu == 4:
+        Queue.popleft()
+    elif menu == 5:
+        Queue.size()
