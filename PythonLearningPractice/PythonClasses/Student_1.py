@@ -12,3 +12,5 @@ class Student_1:
 s1=Student_1('vinay',222)
 s1.info()
 print(Student_1.__doc__)
+s2= Student_1("vinay",1222)
+s2.info()
