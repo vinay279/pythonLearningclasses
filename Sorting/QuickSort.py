@@ -18,3 +18,4 @@ class sort:
 s = sort()
 x=int(input("input").splits())
 s.quicksort(x)
+ 
