@@ -1,21 +1,35 @@
-class sort:
-    def quicksort(x):
-        if len(x) == 1 or len(x) == 0:
-            return x
-        else:
-            pivot = x[0]
-            i = 0
-            for j in range(len(x)-1):
-                if x[j+1] < pivot:
-                    x[j+1],x[i+1] = x[i+1], x[j+1]
-                    i += 1
-            x[0], x[i] = x[i],x[0]
-            first_part = sort.quicksort(x[:i])
-            second_part =sort.quicksort(x[i+1:])
-            first_part.append(x[i])
-            return first_part + second_part
 
-s = sort()
-x=int(input("input").splits())
-s.quicksort(x)
- 
+class QuickSort:
+
+    '''this class is used for the Quick Sort'''
+    def __init__(self, samplelist,start,end):
+        self.samplelist = samplelist
+        self.start = start
+        self.end = end
+
+    def partition(self):
+        length = len(self.samplelist)
+        index = self.start
+        current = self.start
+        pivot = self.samplelist[self.end]
+        while current < length:
+            if self.samplelist[current] <= pivot:
+                self.samplelist[index], self.samplelist[current] = self.samplelist[current], self.samplelist[index]
+                index += 1
+                current += 1
+                self.samplelist[index], self.samplelist[self.end] = self.samplelist[self.end], self.samplelist[index]
+                print('After partition')
+                return index
+
+    # this method is use for the quick sorting##
+    def quicksort(self):
+        if self.start < self.end:
+            index = self.partition(self.samplelist, self.start, self.end)  # middle part
+            self.quicksort(self.samplelist, self.start, index - 1)  # left side recursion
+            self.quicksort(self.samplelist, index + 1, self.end)  # right side recursion
+            print('this is quicksort output', self.samplelist)
+
+
+sampl =[int(x) for x in input("please enter the numbers to sort using QuickSort : ").split()]
+a= QuickSort(sampl,int(0),int(3))
+a.quicksort(sampl, int(0), len(sampl)-1)

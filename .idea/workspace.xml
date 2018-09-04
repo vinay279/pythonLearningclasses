@@ -2,7 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e805109d-6505-49f5-b59f-533c0a11253a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/InsertionSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/RadixSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sorting/radix sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SortingTypes/Sorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SortingTypes/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator/Calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator/Calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileIO/FileWriteData.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileIO/FileWriteData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileIO/zippingAndunzipping.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonLearningPractice/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinklistExamples/DoubleLinkList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinklistExamples/Linklist_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinklistExamples/Linklist_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Person.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonLearningPractice/sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonLearningPractice/sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/SimpleQueue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/BubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/BubbleSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/InsertionSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/MergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/MergeSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sorting/QuickSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/QuickSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/RadixSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/SelectionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/SelectionSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackExample/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/StackExample/Stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackExample/StackUsinglist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPaython/PythonMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestPaython/PythonMain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,46 +36,57 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="D:/pythonLearningclasses\exportToHTML" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="135898302">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="py" value="39" />
+          <entry key="py" value="108" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="39" />
-          <entry key="XML" value="1" />
+          <entry key="Python" value="108" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="43" />
-          <entry key="dummy" value="35" />
-          <entry key="py" value="4265" />
+          <entry key="dummy" value="45" />
+          <entry key="py" value="18946" />
           <entry key="txt" value="84" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="119" />
-          <entry key="Python" value="4308" />
+          <entry key="PLAIN_TEXT" value="129" />
+          <entry key="Python" value="18989" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -62,52 +99,66 @@
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pythonLearningclasses" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist_1.py">
+        <entry file="file://$PROJECT_DIR$/SortingTypes/Sorting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+            <state relative-caret-position="2685">
+              <caret line="173" column="31" lean-forward="true" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestPaython/PythonMain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
               <folding>
-                <marker date="1535007448479" expanded="true" signature="781:787" ph="..." />
+                <marker date="1536050388026" expanded="true" signature="248:270" ph="..." />
+                <marker date="1536050388026" expanded="true" signature="254:255" ph="..." />
+                <marker date="1536050388026" expanded="true" signature="255:257" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Queue/Queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sorting/QuickSort.py">
+        <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <marker date="1535085538113" expanded="false" signature="11:12" ph="..." />
-              </folding>
+            <state relative-caret-position="747">
+              <caret line="83" column="40" lean-forward="true" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sorting/InsertionSort.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sorting/BubbleSort.py">
+        <entry file="file://$PROJECT_DIR$/LinklistExamples/DoubleLinklist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="272">
+              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="127" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Calculator/Calculator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-69">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -120,6 +171,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sort</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,7 +209,6 @@
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/DataTypes.py" />
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/ClassCalculator.py" />
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Constructor.py" />
-        <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py" />
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/StackExample.py" />
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Linklist1.py" />
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Stack.py" />
@@ -169,17 +224,37 @@
         <option value="$PROJECT_DIR$/FileIO/zippingAndunzipping.py" />
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Calculator.py" />
         <option value="$PROJECT_DIR$/LinklistExamples/Linklist.py" />
-        <option value="$PROJECT_DIR$/LinklistExamples/Linklist_1.py" />
-        <option value="$PROJECT_DIR$/Queue/Queue.py" />
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Student_1.py" />
-        <option value="$PROJECT_DIR$/StackExample/Stack.py" />
+        <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/bubble.py" />
+        <option value="$PROJECT_DIR$/PythonLearningPractice/sort.py" />
+        <option value="$PROJECT_DIR$/Sorting/InsertionSort.py" />
         <option value="$PROJECT_DIR$/Sorting/QuickSort.py" />
+        <option value="$PROJECT_DIR$/Sorting/SelectionSort.py" />
+        <option value="$PROJECT_DIR$/Sorting/BubbleSort.py" />
+        <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Person.py" />
+        <option value="$PROJECT_DIR$/Sorting/Main.py" />
+        <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/radix sort.py" />
+        <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/RadixSort.py" />
+        <option value="$PROJECT_DIR$/Sorting/radix sort.py" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+        <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py" />
+        <option value="$PROJECT_DIR$/LinklistExamples/SingleLinklist.py" />
+        <option value="$PROJECT_DIR$/StackExample/StackUsinglist.py" />
+        <option value="$PROJECT_DIR$/StackExample/Stack.py" />
+        <option value="$PROJECT_DIR$/FileIO/FileWriteData.py" />
+        <option value="$PROJECT_DIR$/Queue/Queue.py" />
+        <option value="$PROJECT_DIR$/Queue/CircularQueue.py" />
+        <option value="$PROJECT_DIR$/SortingTypes/Sorting.py" />
+        <option value="$PROJECT_DIR$/LinklistExamples/DoubleLinklist.py" />
+        <option value="$PROJECT_DIR$/LinklistExamples/Linklist_1.py" />
+        <option value="$PROJECT_DIR$/TestPaython/PythonMain.py" />
+        <option value="$PROJECT_DIR$/Calculator/Calculator.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="717" />
-    <option name="width" value="1155" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -190,6 +265,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
+          <expand>
+            <path>
+              <item name="pythonLearningclasses" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="pythonLearningclasses" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="PythonLearningPractice" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,24 +291,37 @@
             <path>
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonLearningPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="Calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonLearningPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonClasses" type="462c0819:PsiDirectoryNode" />
+              <item name="LinklistExamples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="SortingTypes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="StackExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="TestPaython" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,6 +329,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonLearningclasses\Sorting" />
+      <recent name="D:\pythonLearningclasses\PythonLearningPractice\PythonClasses" />
       <recent name="D:\pythonLearningclasses\LinklistExamples" />
       <recent name="D:\pythonLearningclasses\StackExample" />
       <recent name="D:\pythonLearningclasses\FileIO" />
@@ -242,7 +348,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Student_1">
+  <component name="RunManager" selected="Python.PythonMain">
+    <configuration name="Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonLearningclasses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Calculator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Calculator/Calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ClassCalculator" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,49 +391,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Constructor" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonLearningclasses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Constructor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LinkList" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonLearningclasses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Linklist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DoubleLinklist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,7 +403,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinklistExamples/Linklist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinklistExamples/DoubleLinklist.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,7 +412,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Linklist_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,11 +420,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinklistExamples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Queue/Queue.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinklistExamples/Linklist_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -348,7 +433,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Student_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PythonMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -356,11 +441,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestPaython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Student_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestPaython/PythonMain.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Sorting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonLearningclasses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SortingTypes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SortingTypes/Sorting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,19 +477,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.ClassCalculator" />
-      <item itemvalue="Python.Linklist" />
-      <item itemvalue="Python.Constructor" />
-      <item itemvalue="Python.LinkList" />
-      <item itemvalue="Python.Queue" />
-      <item itemvalue="Python.Student_1" />
+      <item itemvalue="Python.Sorting" />
+      <item itemvalue="Python.Linklist_1" />
+      <item itemvalue="Python.DoubleLinklist" />
+      <item itemvalue="Python.PythonMain" />
+      <item itemvalue="Python.Calculator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Student_1" />
-        <item itemvalue="Python.Queue" />
-        <item itemvalue="Python.Linklist" />
-        <item itemvalue="Python.LinkList" />
-        <item itemvalue="Python.Constructor" />
+        <item itemvalue="Python.PythonMain" />
+        <item itemvalue="Python.Calculator" />
+        <item itemvalue="Python.Linklist_1" />
+        <item itemvalue="Python.DoubleLinklist" />
+        <item itemvalue="Python.Sorting" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +514,7 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="2">
+  <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -418,27 +524,72 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.16491044" />
-      <window_info id="Structure" order="1" sideWeight="0.5010846" side_tool="true" weight="0.24973656" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.16491044" />
+      <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
+      <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49525815" visible="true" weight="0.33188722" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4915701" visible="true" weight="0.32212582" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49894625" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49947312" weight="0.329718" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.329718" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49894625" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49841937" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50474185" side_tool="true" weight="0.33188722" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50842994" side_tool="true" weight="0.32212582" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.581138" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.16491044" />
+      <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
+      <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4915701" visible="true" weight="0.32212582" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49894625" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49894625" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49841937" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50842994" side_tool="true" weight="0.32212582" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.581138" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -452,13 +603,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/PythonClassPractice.py" />
-    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Person.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/DataTypes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -473,13 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/950792253/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3556">
-          <caret line="745" column="8" selection-start-line="745" selection-start-column="8" selection-end-line="745" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -498,47 +635,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/StackExample/StackExample.py" />
     <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist.py" />
-    <entry file="file://$PROJECT_DIR$/FileIO/FileIO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/FileWriteData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileIO/zippingAndunzipping.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/FileIO/ReadingLinesAndItsFunctions.py" />
-    <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-          <folding>
-            <marker date="1535007448479" expanded="true" signature="781:787" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Calculator.py" />
-    <entry file="file://$PROJECT_DIR$/Queue/Queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/Student_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -546,23 +646,184 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StackExample/Stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/bubble.py" />
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/InsertionSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sorting/QuickSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="466">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting/BubbleSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting/SelectionSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/MergeSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/RadixSort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/prepare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="431" column="14" selection-start-line="431" selection-start-column="14" selection-end-line="431" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting/radix sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileIO/zippingAndunzipping.py" />
+    <entry file="file://$PROJECT_DIR$/FileIO/FileIO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StackExample/StackUsinglist.py" />
+    <entry file="file://$PROJECT_DIR$/LinklistExamples/SingleLinklist.py" />
+    <entry file="file://$PROJECT_DIR$/Queue/SimpleQueue.py" />
+    <entry file="file://$PROJECT_DIR$/FileIO/FileWriteData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StackExample/Stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/950792253/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12718">
+          <caret line="3724" column="8" selection-start-line="3724" selection-start-column="8" selection-end-line="3724" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue/CircularQueue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortingTypes/Sorting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="173" column="31" lean-forward="true" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinklistExamples/DoubleLinklist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="127" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestPaython/PythonMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
           <folding>
-            <marker date="1535085538113" expanded="false" signature="11:12" ph="..." />
+            <marker date="1536050388026" expanded="true" signature="248:270" ph="..." />
+            <marker date="1536050388026" expanded="true" signature="254:255" ph="..." />
+            <marker date="1536050388026" expanded="true" signature="255:257" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculator/Calculator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue/Queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinklistExamples/Linklist_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="83" column="40" lean-forward="true" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
         </state>
       </provider>
     </entry>

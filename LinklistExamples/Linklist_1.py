@@ -1,60 +1,112 @@
-# class node for defining node
 class Node:
-
-    def __init__(self):
-        self.data = None
+    def __init__(self, data):
+        self.data = data
         self.next = None
 
-# class LinkList
+# class for the linklist operation getnode,insert after , insert before , insert at begining
+# and insert at the end
 class LinkedList:
-
     def __init__(self):
         self.head = None
 
-    # inserting data in LinkList
-    def insert(self, data):
-        data = input("Add an element:")
-        node = Node()
-        node.data = data
-        node.next = self.head
-        self.head = node
+    def get_node(self, index):
+        current = self.head
+        for i in range(index):
+            if current is None:
+                return None
+            current = current.next
+        return current
 
-    # printing data of from LinkList
-    def print(self):
-        print_list = self.head
-        while print_list:
-            print(print_list.data)
-            print_list = print_list.next
+    def get_prev_node(self, ref_node):
+        current = self.head
+        while (current and current.next != ref_node):
+            current = current.next
+        return current
 
-    # printing size of the link list
-    def size(self):
-        i = 0
-        head = self.head
-        while head:
-            i += 1
-            head = head.next
-        print(i)
+    def insert_after(self, ref_node, new_node):
+        new_node.next = ref_node.next
+        ref_node.next = new_node
 
-    def pop(self):
-        data = self.head.data
-        self.head = self.head.next
-        return data
-# creating object
-MyList = LinkedList()
+    def insert_before(self, ref_node, new_node):
+        prev_node = self.get_prev_node(ref_node)
+        self.insert_after(prev_node, new_node)
 
-# for displaying data on the console
+    def insert_at_beg(self, new_node):
+        if self.head is None:
+            self.head = new_node
+        else:
+            new_node.next = self.head
+            self.head = new_node
+
+    def insert_at_end(self, new_node):
+        if self.head is None:
+            self.head = new_node
+        else:
+            current = self.head
+            while current.next is not None:
+                current = current.next
+            current.next = new_node
+
+    def remove(self, node):
+        prev_node = self.get_prev_node(node)
+        if prev_node is None:
+            self.head = self.head.next
+        else:
+            prev_node.next = node.next
+
+    def display(self):
+        current = self.head
+        while current:
+            print(current.data, end=' ')
+            current = current.next
+
+
+a_llist = LinkedList()
+
+print('Menu')
+print('insert <data> after <index>')
+print('insert <data> before <index>')
+print('insert <data> at beg')
+print('insert <data> at end')
+print('remove <index>')
+print('quit')
+
 while True:
-    print("1. Add an element")
-    print("2. Print the list")
-    print("3. Size of the list")
-    print("4.pop item from list")
-    menu = int(input("Choose an action:"))
+    print('The list: ', end='')
+    a_llist.display()
+    print()
+    do = input('What would you like to do? ').split()
 
-    if menu == 1:
-        MyList.insert(1)
-    elif menu == 2:
-        MyList.print()
-    elif menu == 3:
-        MyList.size()
-    elif menu == 4:
-        MyList.pop()
+    operation = do[0].strip().lower()
+
+    if operation == 'insert':
+        data = int(do[1])
+        position = do[3].strip().lower()
+        new_node = Node(data)
+        suboperation = do[2].strip().lower()
+        if suboperation == 'at':
+            if position == 'beg':
+                a_llist.insert_at_beg(new_node)
+            elif position == 'end':
+                a_llist.insert_at_end(new_node)
+        else:
+            index = int(position)
+            ref_node = a_llist.get_node(index)
+            if ref_node is None:
+                print('No such index.')
+                continue
+            if suboperation == 'after':
+                a_llist.insert_after(ref_node, new_node)
+            elif suboperation == 'before':
+                a_llist.insert_before(ref_node, new_node)
+
+    elif operation == 'remove':
+        index = int(do[1])
+        node = a_llist.get_node(index)
+        if node is None:
+            print('No such index.')
+            continue
+        a_llist.remove(node)
+
+    elif operation == 'quit':
+        break

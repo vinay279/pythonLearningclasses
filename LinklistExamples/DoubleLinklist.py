@@ -1,10 +1,15 @@
-'''what to do
-single linklist
-double link list
-queue
-circular queue
-stack
-file '''
+'''class do the operation of doublely link list '''
+
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+        self.prev = None
+
+# class for the linklist operation getnode,insert after , insert before , insert at begining
+# and insert at the end
+
 class DoublyLinkedList:
     def __init__(self):
         self.first = None
@@ -64,11 +69,12 @@ class DoublyLinkedList:
     def display(self):
         current = self.first
         while current:
-            print(current.data, end = ' ')
+            print(current.data, end=' ')
             current = current.next
 
-dllist = DoublyLinkedList()
 
+dllist = DoublyLinkedList()
+# display this on console
 print('Menu')
 print('insert <data> after <index>')
 print('insert <data> before <index>')
@@ -78,17 +84,19 @@ print('remove <index>')
 print('quit')
 
 while True:
-    print('The list: ', end = '')
+    print('The list: ', end='')
     dllist.display()
     print()
     do = input('What would you like to do? ').split()
 
     operation = do[0].strip().lower()
 
+
+# if user write insert operation of console
     if operation == 'insert':
         data = int(do[1])
         position = do[3].strip().lower()
-        new_node =  (data)
+        new_node = Node(data)
         suboperation = do[2].strip().lower()
         if suboperation == 'at':
             if position == 'beg':
@@ -106,13 +114,15 @@ while True:
             elif suboperation == 'before':
                 dllist.insert_before(ref_node, new_node)
 
+
+# for remove operation written by user
     elif operation == 'remove':
         index = int(do[1])
-        node = dllist.get_node(index)
+        node = a_dllist.get_node(index)
         if node is None:
             print('No such index.')
             continue
-        dllist.remove(node)
+        a_dllist.remove(node)
 
     elif operation == 'quit':
         break

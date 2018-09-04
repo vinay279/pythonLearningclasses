@@ -2,37 +2,42 @@ class Stack:
     def __init__(self):
         self.items = []
 
-    def isEmpty(self):
+    def is_empty(self):
         return self.items == []
 
-    def push(self, item):
-        self.items.append(item)
+    def push(self, data):
+        self.items.append(data)
 
     def pop(self):
         return self.items.pop()
 
-    def peek(self):
-        return self.items[len(self.items) - 1]
-
     def size(self):
-        return len(self.items)
-S1= Stack()
+        return self.items.__sizeof__()
 
+
+s = Stack()
 while True:
-        print("1. Is stack is Empty")
-        print("2. Push")
-        print("3. pop")
-        print("4. peek")
-        print("5. size")
-        menu = int(input("Choose an action:"))
+    print('1.push ')
+    print('2.pop')
+    print('3.size')
+    print('4.quit')
+    operation = int(input('What would you like to do? '))
 
-        if menu == 1:
-            S1.isEmpty()
-        elif menu == 2:
-            S1.push()
-        elif menu == 3:
-            S1.pop()
-        elif menu == 4:
-            S1.peek()
-        elif menu == 5:
-            S1.size()
+    if operation == 1:
+        data = input("enter data u want to push")
+        s.push(data)
+
+    elif operation == 2:
+        if s.is_empty():
+            print('Stack is empty.')
+        else:
+            print('Popped value: ', s.pop())
+    elif operation == 3:
+        s.size()
+
+    elif operation == 4:
+        print("successfully exited")
+        break
+
+    elif operation != 1 or operation != 2 or operation != 3 or operation != 4:
+        print("invalid input please enter correct value")

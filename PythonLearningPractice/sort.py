@@ -1,4 +1,3 @@
-from Tools.demo.sortvisu import quicksort
 
 
 class Quicksort():
