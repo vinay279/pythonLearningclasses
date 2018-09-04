@@ -43,27 +43,30 @@ class Queue:
         self.head = 0
         self.queue = list()
 
+    def callingQueue(self):
+        q = Queue()
+        while True:
+            print('1.Insert to Queue')
+            print('2.Remove from Queue')
+            print('4.Quit')
+            operation = int(input('What would you like to do? '))
 
-q = Queue()
-while True:
-    print('1.Insert to Queue')
-    print('2.Remove from Queue')
-    print('4.Quit')
-    operation = int(input('What would you like to do? '))
+            if operation == 1:
+                data = input("Enter the values ou want to insert in the Queue")
+                q.insert(data)
 
-    if operation == 1:
-        data = input("Enter the values ou want to insert in the Queue")
-        q.insert(data)
+            elif operation == 2:
+                q.remove()
 
-    elif operation == 2:
-        q.remove()
+            elif operation == 3:
+                q.size()
 
-    elif operation == 3:
-        q.size()
+            elif operation == 4:
+                print("successfully exited", q.resetQueue)
+                break
 
-    elif operation == 4:
-        print("successfully exited",q.resetQueue)
-        break
+            elif operation != 1 or operation != 2 or operation != 3 or operation != 4:
+                print("invalid input please enter correct value")
 
-    elif operation != 1 or operation != 2 or operation != 3 or operation != 4:
-        print("invalid input please enter correct value")
+
+

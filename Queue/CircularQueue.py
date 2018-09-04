@@ -44,23 +44,26 @@ class CQueue():
                 else:
                     self.queue.append(item)
 
-q = CQueue(int(input("enter the size of cicular Queue")))
-while True:
-    print('1.Insert to Queue')
-    print('2.Remove from Queue')
-    print('3.Quit')
-    operation = int(input('What would you like to do? '))
+    def callingCQueue(self):
+        q = CQueue(int(input("enter the size of cicular Queue")))
+        while True:
+            print('1.Insert to Queue')
+            print('2.Remove from Queue')
+            print('3.Quit')
+            operation = int(input('What would you like to do? '))
 
-    if operation == 1:
-        data = input("Enter the values ou want to insert in the Queue")
-        q.insert(data)
+            if operation == 1:
+                data = input("Enter the values ou want to insert in the Queue")
+                q.insert(data)
 
-    elif operation == 2:
-        q.remove()
+            elif operation == 2:
+                q.remove()
 
-    elif operation == 3:
-        print("successfully exited", q.resetQueue)
-        break
+            elif operation == 3:
+                print("successfully exited", q.resetQueue)
+                break
 
-    elif operation != 1 or operation != 2 or operation != 3 or operation != 4:
-        print("invalid input please enter correct value")
+            elif operation != 1 or operation != 2 or operation != 3 or operation != 4:
+                print("invalid input please enter correct value")
+
+

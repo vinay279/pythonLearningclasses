@@ -72,57 +72,60 @@ class DoublyLinkedList:
             print(current.data, end=' ')
             current = current.next
 
+    def operationDl(self):
+        dllist = DoublyLinkedList()
+        # display this on console
+        print('Menu')
+        print('insert <data> after <index>')
+        print('insert <data> before <index>')
+        print('insert <data> at beg')
+        print('insert <data> at end')
+        print('remove <index>')
+        print('quit')
 
-dllist = DoublyLinkedList()
-# display this on console
-print('Menu')
-print('insert <data> after <index>')
-print('insert <data> before <index>')
-print('insert <data> at beg')
-print('insert <data> at end')
-print('remove <index>')
-print('quit')
+        while True:
+            print('The list: ', end='')
+            dllist.display()
+            print()
+            do = input('What would you like to do? ').split()
 
-while True:
-    print('The list: ', end='')
-    dllist.display()
-    print()
-    do = input('What would you like to do? ').split()
+            operation = do[0].strip().lower()
 
-    operation = do[0].strip().lower()
-
-
-# if user write insert operation of console
-    if operation == 'insert':
-        data = int(do[1])
-        position = do[3].strip().lower()
-        new_node = Node(data)
-        suboperation = do[2].strip().lower()
-        if suboperation == 'at':
-            if position == 'beg':
-                dllist.insert_at_beg(new_node)
-            elif position == 'end':
-                dllist.insert_at_end(new_node)
-        else:
-            index = int(position)
-            ref_node = dllist.get_node(index)
-            if ref_node is None:
-                print('No such index.')
-                continue
-            if suboperation == 'after':
-                dllist.insert_after(ref_node, new_node)
-            elif suboperation == 'before':
-                dllist.insert_before(ref_node, new_node)
+            # if user write insert operation of console
+            if operation == 'insert':
+                data = int(do[1])
+                position = do[3].strip().lower()
+                new_node = Node(data)
+                suboperation = do[2].strip().lower()
+                if suboperation == 'at':
+                    if position == 'beg':
+                        dllist.insert_at_beg(new_node)
+                    elif position == 'end':
+                        dllist.insert_at_end(new_node)
+                else:
+                    index = int(position)
+                    ref_node = dllist.get_node(index)
+                    if ref_node is None:
+                        print('No such index.')
+                        continue
+                    if suboperation == 'after':
+                        dllist.insert_after(ref_node, new_node)
+                    elif suboperation == 'before':
+                        dllist.insert_before(ref_node, new_node)
 
 
-# for remove operation written by user
-    elif operation == 'remove':
-        index = int(do[1])
-        node = a_dllist.get_node(index)
-        if node is None:
-            print('No such index.')
-            continue
-        a_dllist.remove(node)
+            # for remove operation written by user
 
-    elif operation == 'quit':
-        break
+            elif operation == 'remove':
+                index = int(do[1])
+                node = dllist.get_node(index)
+                if node is None:
+                    print('No such index.')
+                    continue
+                dllist.remove(node)
+
+            elif operation == 'quit':
+                break
+
+
+
