@@ -10,12 +10,20 @@ class MatrixOperation:
             for i in range(rows):
                 matrix.append(list(map(int, input().rstrip().split())))
             print("matrix created successflly")
+            return matrix
 
-    # method for the matrix multiplication
-    def Mmultiplication(self,matrix1,matrix2):
-            MatrixOperation.creatematrix()
-            MatrixOperation.creatematrix()
+    def matrixADD(self,matrix1, matrix2):
+        Z = []
+        for i in range(0, len(matrix1)):
+            for column in range(0, len(matrix1)):
+                result = matrix1[i][column] + matrix2[i][column]
+                Z[i][column] = (result)
+                Z([i][column]) + 1
+        return Z
 
 
-c= MatrixOperation()
-c.Mmultiplication()
+
+c = MatrixOperation()
+matrix1=c.creatematrix()
+matrix2= c.creatematrix()
+c.matrixADD(matrix1,matrix2)

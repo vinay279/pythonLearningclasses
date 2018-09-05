@@ -1,4 +1,10 @@
-''' This class is used for the creation FileIO operations '''
+''' This class is used for the creation FileIO operations
+
+                  "1.Create File\n"
+                  "2.Read Data from File"
+                  "3.Append Data to File"
+                  "4.Delete All Data from File"
+                  "5.Rename File"       '''
 import os
 class FileIO:
 
@@ -38,33 +44,40 @@ class FileIO:
     # MEthod for Rename the file
     def renameFile(self):
 
-        os.rename(input("Enter FileName"), input("Enter NewFileName"))
-
+        os.rename(input("Enter FileName you want to rename"), input("Enter NewFileName"))
+        print("File is Renamed successfully")
     # method for calling all methods of class
     def callingFIO(self):
-        c = FileIO()
+
         while True:
             print("1.Create File\n"
                   "2.Read Data from File\n"
                   "3.Append Data to File\n"
                   "4.Delete All Data from File\n"
-                  "5.Rename File")
+                  "5.Rename File\n"
+                  "6.Exit")
             press = int(input("*********Select the operation you want**************"))
 
             if press == 1:
-                c.createfile()
+                self.createfile()
 
             elif press == 2:
-                c.readDataFromFile()
+                self.readDataFromFile()
 
             elif press ==3:
-                c.AppendData2File()
+                self.AppendData2File()
 
             elif press == 4:
-                c.deleteDataFromFile()
+                self.deleteDataFromFile()
 
             elif press == 5:
-                c.renameFile()
+                self.renameFile()
+
+            elif press == 6:
+                print("Exited successfully")
+                break
+            else:
+                print("invalid operation")
 
 
 

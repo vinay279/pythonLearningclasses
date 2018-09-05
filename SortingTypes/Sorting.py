@@ -11,8 +11,8 @@ class Sorting:
 
     # Constructor of the class for defining instance variable
 
-    def __init__(self, samplelist):
-        self.samplelist = samplelist
+    def __init__(self):
+        self.sample = []
 
     #  Bubble sort
     #  Statement:
@@ -199,8 +199,9 @@ class Sorting:
 
         self.mergesort(left)
         self.mergesort(right)
-
+        # calling merge sort
         self.merge(left, right, Array)
+        print(Array)
 
 
 
@@ -360,13 +361,8 @@ class Sorting:
 
     # Implementation for the user input
     # Options provided to the user
-    def UserIP(self):
-        sample = [int(x) for x in
-                  input(" =>Please enter the values with spaces you want to Selection Sort :  ").split()]
-        return sample
 
     def callSorting(self):
-        s = Sorting()
         while True:
             print("1.Bubble Sort\n"
                   "2.Selection Sort\n"
@@ -381,41 +377,42 @@ class Sorting:
             # if press 1 then user will get the bubble sort output
 
             if menu == 1:
-                s.BubbleSort(self.UserIP())  # calling bubble Sort method
+                sample = [int(x) for x in
+                          input("=>Please enter the values with spaces you want to Bubble Sort   :").split()]
+                s1 = Sorting()  # creating object of class
+                s1.BubbleSort(sample)  # calling bubble Sort method
 
             elif menu == 2:
                 sample = [int(x) for x in
                           input(" =>Please enter the values with spaces you want to Selection Sort :  ").split()]
-
-                s.selectionSort(sample)  # calling Selection sort method
+                s2 = Sorting()
+                s2.selectionSort(sample)  # calling Selection sort method
 
             elif menu == 3:
                 sample = [int(x) for x in
                           input("=>Please enter the values with spaces you want to Insertion Sort :").split()]
-
-                s.insertionSort(sample)  # Calling insertion sort method
+                s3 = Sorting()
+                s3.insertionSort(sample)  # Calling insertion sort method
 
             elif menu == 4:
                 sample = [int(x) for x in
                           input("=>Please enter the values with spaces you want to Merge Sort :").split()]
-
-                s.mergesort(sample)  # Calling insertion sort method
+                s4 = Sorting()
+                s4.mergesort(sample)  # Calling insertion sort method
 
             elif menu == 5:
                 sample = [int(x) for x in input("=>Please enter the values with spaces you want to Sort :").split()]
-                s5 = Sorting(sample)
+                s5 = Sorting()
                 s5.quickSort(sample)  # Calling Quick sort method
 
             elif menu == 6:
-                s6 = Sorting(sample)
+                sample = [int(x) for x in input("=>Please enter the values with spaces you want to Sort :").split()]
+                s6 = Sorting()
                 s6.radixSort(sample)  # Calling Radix sort method
 
             elif menu == 7:
-                exit(print('Exited successfully'))  # user will exit the process successfully
-
-            elif menu != 1 or menu != 2 or menu != 3 or menu != 4 or menu != 5 or menu != 6 or menu !=7:
-
-                print("Invalid Menu selected")
+                print('Exited successfully')  # user will exit the process successfully
+                break
 
 
-pass
+

@@ -1,3 +1,6 @@
+''' This class is used for '''
+
+
 class Stack:
     def __init__(self):
         self.items = []
@@ -12,35 +15,35 @@ class Stack:
         return self.items.pop()
 
     def size(self):
-        return self.items.__sizeof__()
+        return len(self.items)-1
 
     def callingStack(self):
-        s = Stack()
+
         while True:
-            print('1.push ')
-            print('2.pop')
-            print('3.size')
-            print('4.quit')
+            print('\t1.push ')
+            print('\t2.pop')
+            print('\t3.Display Stack')
+            print('\t4.Quit')
             operation = int(input('What would you like to do? '))
 
             if operation == 1:
                 data = input("enter data u want to push")
-                s.push(data)
+                self.push(data)
+                print("data push successfully",data)
 
             elif operation == 2:
-                if s.is_empty():
+                if self.is_empty():
                     print('Stack is empty.')
                 else:
-                    print('Popped value: ', s.pop())
+                    print('Popped value: ', self.pop())
             elif operation == 3:
-                s.size()
+                print(self.items)
 
             elif operation == 4:
                 print("successfully exited")
                 break
-
-            elif operation != 1 or operation != 2 or operation != 3 or operation != 4:
-                print("invalid input please enter correct value")
+            else:
+                print("Invalid Input Please Enter Correct")
 
 
 
