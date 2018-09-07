@@ -10,6 +10,7 @@ class Stack:
 
     def push(self, data):
         self.items.append(data)
+        print("data is added successfully",self.items)
 
     def pop(self):
         return self.items.pop()
