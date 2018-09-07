@@ -85,60 +85,82 @@ class DoublyLinkedList:
             print(current.data, end=' ')
             current = current.next
 
-    # method used for the taking input from user
+    # method used for the taking input from use
+
     def operationDl(self):
-        dllist = DoublyLinkedList()
         # display this on console
-        print('Menu')
-        print(" please write the sentences and in the angular brackets write the data and index you want")
-        print('1.insert <data> after <index>')
-        print('2.insert <data> before <index>')
-        print('3.insert <data> at beg')
-        print('4.insert <data> at end')
-        print('5.remove <index>')
-        print('6.quit')
+        print('1.Insert data at beginning')
+        print('2.Insert data at end')
+        print('3.Insert data after index')
+        print('4.Insert data before index')
+        print('5.Remove Node')
+        print('6.Display LinkList')
+        print('7.Quit')
 
         while True:
-            print('The list: ', end='')
-            dllist.display()
-            print()
-            do = int(input('What would you like to do? ').split())
 
-            operation = do[0].strip().lower()
+            do = int(input("Select the input you want"))
 
-            # if user write insert operation of console
-            if operation == '1':
-                data = int(do[1])
-                position = do[3].strip().lower()
+            if do == 1:  # inserting data at beg
+                data = input("Enter the data you want to insert")
                 new_node = Node(data)
-                suboperation = do[2].strip().lower()
-                if suboperation == 'at':
-                    if position == 'beg':
-                        dllist.insert_at_beg(new_node)
-                    elif position == 'end':
-                        dllist.insert_at_end(new_node)
-                else:
-                    index = int(position)
-                    ref_node = dllist.get_node(index)
-                    if ref_node is None:
-                        print('No such index.')
-                        continue
-                    if suboperation == 'after':
-                        dllist.insert_after(ref_node, new_node)
-                    elif suboperation == 'before':
-                        dllist.insert_before(ref_node, new_node)
+                self.insert_at_beg(new_node)
 
-            # for remove operation written by user
-            elif operation == 'remove':
-                index = int(do[1])
-                node = dllist.get_node(index)
+            elif do == 2:  # insert data at end
+                data = input("Enter the data you want to insert")
+                new_node = Node(data)
+                self.insert_at_end(new_node)
+
+            # insert data after index
+            elif do == 3:
+                data = input(" Enter Data")
+                index = int(input("Enter the Index"))
+                ref_node = self.get_node(index)
+                if ref_node is None:
+                    print('No such index.')
+
+                else:
+                    new_node = Node(data)
+                    self.insert_after(ref_node, new_node)
+
+            # insert data before index
+            elif do == 4:
+                data = input(" Enter Data")
+                index = int(input("Enter the Index"))
+                ref_node = self.get_node(index)
+                if ref_node is None:
+                    print('No such index.')
+
+                else:
+                    new_node = Node(data)
+                    self.insert_before(ref_node, new_node)
+
+            # remove node for the list
+            elif do == 5:
+                index = int(input(" Enter the index You want to Delete"))
+                node = self.get_node(index)
                 if node is None:
                     print('No such index.')
                     continue
-                dllist.remove(node)
+                self.remove(node)
 
-            elif operation == 'quit':
+            # for display list
+            elif do == 6:
+                print('The list: ', end='')
+                self.display()
+                print()
+
+            # exit operation
+            elif do == 7:
+                print("Exited Successfully")
                 break
+
+            else:
+                print("Invalid input please enter correct")
+
+
+
+
 
 
 

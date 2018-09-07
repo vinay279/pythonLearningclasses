@@ -78,56 +78,75 @@ class LinkedList:
         while current:
             print(current.data, end=' ')
             current = current.next
-    # method for the purpose of calling the function from the
-    def operationsLL(self):
-        a_llist = LinkedList()
 
-        print('Menu')
-        print(" please write the sentences and in the angular brackets write the data and index you want")
-        print('insert <data> after <index>')
-        print('insert <data> before <index>')
-        print('insert <data> at beg')
-        print('insert <data> at end')
-        print('remove <index>')
-        print('quit')
+    # method for the purpose of calling the function from the
+
+    def operationsLL(self):
+        # display this on console
+        print('1.Insert data at beginning')
+        print('2.Insert data at end')
+        print('3.Insert data after index')
+        print('4.Insert data before index')
+        print('5.Remove Node')
+        print('6.Display LinkList')
+        print('7.Quit')
 
         while True:
-            print('The list: ', end='')
-            a_llist.display()
-            print()
-            do = input('What would you like to do? ').split()
 
-            operation = do[0].strip().lower()
+            do = int(input('What would you like to do? '))
 
-            if operation == 'insert':
-                data = int(do[1])
-                position = do[3].strip().lower()
+            # insert at beg
+            if do == 1:
+                data = input("Enter Data")
                 new_node = Node(data)
-                suboperation = do[2].strip().lower()
-                if suboperation == 'at':
-                    if position == 'beg':
-                        a_llist.insert_at_beg(new_node)
-                    elif position == 'end':
-                        a_llist.insert_at_end(new_node)
-                else:
-                    index = int(position)
-                    ref_node = a_llist.get_node(index)
-                    if ref_node is None:
-                        print('No such index.')
-                        continue
-                    if suboperation == 'after':
-                        a_llist.insert_after(ref_node, new_node)
-                    elif suboperation == 'before':
-                        a_llist.insert_before(ref_node, new_node)
+                self.insert_at_beg(new_node)
 
-            elif operation == 'remove':
-                index = int(do[1])
-                node = a_llist.get_node(index)
+            # insert at end
+            elif do == 2:
+                data = input("Enter Data")
+                new_node = Node(data)
+                self.insert_at_end(new_node)
+
+            # insert after
+            elif do == 3:
+                index = int("eneter Index")
+                ref_node = self.get_node(index)
+                if ref_node is None:
+                    print('No such index.')
+
+                else:
+                    data = input("Enter Data")
+                    new_node = Node(data)
+                    self.insert_after(ref_node, new_node)
+
+            # insert before
+            elif do == 4:
+                index = int("eneter Index")
+                ref_node = self.get_node(index)
+                if ref_node is None:
+                    print('No such index.')
+
+                else:
+                    data = input("Enter Data")
+                    new_node = Node(data)
+                    self.insert_before(ref_node, new_node)
+
+            elif do == 5:
+                index = int(input("Enter Index you want to Remove"))
+                node = self.get_node(index)
                 if node is None:
                     print('No such index.')
                     continue
-                a_llist.remove(node)
+                self.remove(node)
 
-            elif operation == 'quit':
+            elif do == 6:
+                print('The list: ', end='')
+                self.display()
+                print()
+
+            elif do == 7:
+                print("Exited Successfully")
                 break
 
+            else:
+                print("Inavalid input please enter correct")
