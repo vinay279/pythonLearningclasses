@@ -3,20 +3,28 @@
 
 class Stack:
     def __init__(self):
-        self.items = []
+        self.items = [10, 3]
 
     def is_empty(self):
         return self.items == []
 
     def push(self, data):
         self.items.append(data)
-        print("data is added successfully",self.items)
+        print("data is added successfully", data)
+        print('Stack contains data after push', self.items)
+        print("size of stack is = ", len(self.items))
 
     def pop(self):
-        return self.items.pop()
+        try:
+            self.items.pop()
+            print('Stack contains data after pop', self.items)
+        except IndexError:
+
+            print("You cant POP from Empty list")
+
 
     def size(self):
-        return len(self.items)-1
+        return print('size of stack after push', len(self.items)-1)
 
     def callingStack(self):
 

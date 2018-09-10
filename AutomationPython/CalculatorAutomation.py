@@ -90,6 +90,11 @@ class AutomateCalculator:
             print(" Test Automation of of Calculator Multiply is failed ")
 
 
+
+
+
+
+
 vi = AutomateCalculator()
 vi.automateAdd()
 vi.automateDivision()
