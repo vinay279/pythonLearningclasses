@@ -21,6 +21,7 @@ class Queue:
         if self.size() >= self.maxSize-1:
             return (" Queue Full ")
         self.queue.append(data)
+        print("Data is Inserted In Queue is = ", data)
         self.tail += 1
         return True
 
