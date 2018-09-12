@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e805109d-6505-49f5-b59f-533c0a11253a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AutomationPython/AutomateStack.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationPython/AutomateStack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixOperation/Matrix addition.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/Matrix addition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatrixOperation/Matrix.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +40,7 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="livepython" value="1" />
-          <entry key="py" value="179" />
+          <entry key="py" value="180" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="7" />
           <entry key="xml" value="3" />
@@ -51,7 +49,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="179" />
+          <entry key="Python" value="180" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -87,7 +85,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
@@ -114,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -247,6 +245,11 @@
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
               <item name="Calculator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="MatrixOperation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -757,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -850,10 +846,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py">
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -861,6 +857,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="94" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
