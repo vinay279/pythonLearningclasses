@@ -1,5 +1,48 @@
 class MatrixMultiplication:
     print('MATRIX MULTIPLICATION\n')
+    print("NOTE - The 1st MATRIX COLUMNS COUNT = 2ND MATRIX ROWS COUNT")
+
+    # Prints the sum of matrix of orders mxn
+    first_row_count = int(input('Enter the number of rows of 1st matrix :'))
+    first_col_count = int(input('Enter the number of columns of 1st matrix :'))
+
+    second_row_count = int(input('Enter the number of rows of 1st matrix :'))
+    second_col_count = int(input('Enter the number of columns of 1st matrix :'))
+
+    first_Matrix = []
+    second_matrix = []
+    if first_col_count == second_row_count:
+
+        print('Enter the elements of first Matrix')
+        for rowValue1 in range(0, first_row_count):
+            M1Rows = []
+            input_variable = None
+            for colValue1 in range(0, first_col_count):
+                input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(rowValue1, colValue1)))
+                M1Rows.append(input_variable)
+            first_Matrix.append(M1Rows)
+
+        print('Enter the elements of first Matrix')
+        for rowValue2 in range(0, first_row_count):
+            row = []
+            input_variable = None
+            for j in range(0, first_col_count):
+                input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(rowValue2, j)))
+                row.append(input_variable)
+            second_matrix.append(row)
+
+        resultMultiplication = []
+        resultMultiplication = [first_Matrix[rowValue1][colValue1] * second_matrix[colValue1]]
+
+
+
+
+
+
+
+
+
+    print('MATRIX MULTIPLICATION\n')
 
     # Ask user for dimensions of first matrix
     rows = int(input("Matrix1: Number of rows?: "))

@@ -121,7 +121,7 @@ class AutomateStack:
         print(' popitem', self.stack[popitemindex])
         self.stack.pop(len(self.stack) - 1)
         if popitem not in self.stack:
-            print(popitem , "Is Not present in stack ")
+            print(popitem, "Is Not present in stack ")
             print('Stack contains after pop', self.stack, '\n')
 
         # using the function
