@@ -31,6 +31,6 @@ class Selection:
             samplelist[fillslot] = samplelist[positionOfMax]
             samplelist[positionOfMax] = temp
 
-        print('sorted values are : ', samplelist)
+        print('sorted values using selection sort are : ', samplelist)
         return positionOfMax
 

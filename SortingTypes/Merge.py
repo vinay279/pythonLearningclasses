@@ -23,54 +23,46 @@ class Merge:
     # Implementation of Merge sort
 
     # function for merging two sub-arrays
-    def merge(self, left, right, Array):
-        i = 0
-        j = 0
-        k = 0
 
-        while (i < len(left) and j < len(right)):
-            if (left[i] < right[j]):
-                Array[k] = left[i]
+
+    def mergesort(self, alist):
+
+
+        if len(alist) > 1:
+            mid = len(alist) // 2
+            lefthalf = alist[:mid]
+            righthalf = alist[mid:]
+
+            # recursion
+            self.mergesort(lefthalf)
+            self.mergesort(righthalf)
+
+            i = 0
+            j = 0
+            k = 0
+
+            while i < len(lefthalf) and j < len(righthalf):
+                if lefthalf[i] < righthalf[j]:
+                    alist[k] = lefthalf[i]
+                    i = i + 1
+                else:
+                    alist[k] = righthalf[j]
+                    j = j + 1
+                k = k + 1
+
+            while i < len(lefthalf):
+                alist[k] = lefthalf[i]
                 i = i + 1
-            else:
-                Array[k] = right[j]
+                k = k + 1
+
+            while j < len(righthalf):
+                alist[k] = righthalf[j]
                 j = j + 1
+                k = k + 1
 
-            k = k + 1
+                break
 
-        while (i < len(left)):
-            Array[k] = left[i]
-            i = i + 1
-            k = k + 1
 
-        while (j < len(right)):
-            Array[k] = right[j]
-            j = j + 1
-            k = k + 1
-            return Array
-
-    # function for dividing and calling merge function
-    def mergesort(self, Array):
-        n = len(Array)
-        if (n < 2):
-            return
-
-        mid = n // 2
-        left = []
-        right = []
-
-        for i in range(mid):
-            number = Array[i]
-            left.append(number)
-
-        for i in range(mid, n):
-            number = Array[i]
-            right.append(number)
-
-        a= self.mergesort(left).extend(self.mergesort(right))
-        # calling merge
-        self.merge(left, right, Array)
-        print(Array)
 
 
 

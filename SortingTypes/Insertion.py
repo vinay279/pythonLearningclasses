@@ -31,6 +31,6 @@ class Insertion:
                 samplelist[k] = samplelist[k - 1]
                 k -= 1
             samplelist[k] = tmp
-        print("The given list is sorted suceesfully  as :", samplelist)
+        print("This list is Insertion sorted list  :", samplelist)
         return samplelist
     # =======================================*****==================================================
