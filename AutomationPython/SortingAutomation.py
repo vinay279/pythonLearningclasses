@@ -32,7 +32,7 @@ class SortingAutomation:
 
         # for checking the total element list
         if len(self.elements) == len(sample2):
-                print("length is also equal ")
+                print("length is also equal ",'\n')
 
 
     def CheckSelectionSort(self):
@@ -53,7 +53,7 @@ class SortingAutomation:
 
                 else:
                     print("Elements are not equal Selection sorting fails")
-        print("Test case of Selection Soring passed")
+        print("Test case of Selection Soring passed",'\n')
 
     # for checking Quick sort is running
     def checkQuickSort(self):
@@ -75,7 +75,7 @@ class SortingAutomation:
                     print("value are Equal in two list", self.elements[i], '=', sample2[i])
 
                 else:
-                    print("Elements are not equal Quick sorting fails")
+                    print("Elements are not equal Quick sorting fails",'\n')
 
 
         # for checking the total element list
@@ -111,7 +111,7 @@ class SortingAutomation:
         if len(self.elements) == len(sample2):
             print("length of two sorted list is aso equal ")
 
-        print("Test case of radix  Soring passed")
+        print("Test case of radix  Soring passed",'\n')
 
     # checking insertion sort
     def checkingInsertionSort(self):
@@ -140,7 +140,7 @@ class SortingAutomation:
         if len(self.elements) == len(sample2):
             print("length of two sorted list is aso equal ")
 
-        print("Test case of Insertion  Soring passed")
+        print("Test case of Insertion  Soring passed",'\n')
 
     # checking the merge Sorting
     def checkMergeSorting(self):
@@ -170,8 +170,13 @@ class SortingAutomation:
         if len(self.elements) == len(sample2):
             print("length of two sorted list is aso equal ")
 
-        print("Test case of Insertion  Soring passed")
+        print("Test case of Insertion  Soring passed",'\n')
 
 
 clsObj = SortingAutomation()
 clsObj.checkMergeSorting()
+clsObj.checkBubbleSort()
+clsObj.checkingInsertionSort()
+clsObj.checkMergeSorting()
+clsObj.checkRadixSort()
+clsObj.CheckSelectionSort()

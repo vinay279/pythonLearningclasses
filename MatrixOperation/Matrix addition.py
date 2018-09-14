@@ -15,31 +15,32 @@ class MatrixAddition:
 
         if(first_row_count == second_row_count) and (second_row_count == second_col_count):
             print('Enter the elements of first Matrix')
-            for i in range(0, first_row_count):
+            for irow in range(0, first_row_count):
                 row = []
-                input_variable = None
-                for j in range(0, first_col_count):
-                    input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(i, j)))
+
+                for jcol in range(0, first_col_count):
+                    input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(irow, jcol)))
                     row.append(input_variable)
                 first_Matrix.append(row)
 
             print('Enter the elements of second Matrix')
-            for i in range(0, second_row_count):
+            for irow in range(0, second_row_count):
                 row = []
-                input_variable = None
-                for j in range(0, second_col_count):
-                    input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(i, j)))
+
+                for jcol in range(0, second_col_count):
+                    input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(irow, jcol)))
                     row.append(input_variable)
                 second_matrix.append(row)
 
-            print('Resultant Matrix')
-            result = [[first_Matrix[i][j] + second_matrix[i][j]
-                       for j in range(len(first_Matrix[0]))]
-                      for i in range(len(first_Matrix))]
-            for r in result:
-                   print(r)
+
+            print(' Matrix Output')
+            result = [[first_Matrix[index][jindex] + second_matrix[index][jindex]
+                       for jindex in range(len(first_Matrix[0]))]
+                         for index in range(len(first_Matrix))]
+            for values in result:
+                   print(values)
         else:
             print('The  Size of matrix are differnt ')
         print('The Matrix Sum performed')
-q= MatrixAddition()
+q = MatrixAddition()
 q.matrixAddition()

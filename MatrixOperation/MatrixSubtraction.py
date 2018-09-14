@@ -32,7 +32,7 @@ class MatrixSubtraction:
                     row.append(input_variable)
                 second_matrix.append(row)
 
-            print('Resultant Matrix')
+            print(' Matrix Output')
             Subtraction = [[first_Matrix[irow][jcol] - second_matrix[irow][jcol]
                        for jcol in range(len(first_Matrix[0]))]
                       for irow in range(len(first_Matrix))]
@@ -41,5 +41,5 @@ class MatrixSubtraction:
         else:
             print('The Size of matrix are Diffrent')
         print('The Matrix Subtraction  performed')
-q= MatrixSubtraction()
+q = MatrixSubtraction()
 q.matrixSubtraction()

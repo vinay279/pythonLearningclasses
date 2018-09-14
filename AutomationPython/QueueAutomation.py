@@ -12,17 +12,21 @@ class AutomateQueue:
 
 
     # Enqueuing elements to the Queue
+
+    def addElements(self):
+        print("Initially Queue contains =", self.queue)
+        print("The first Element Added =", (self.element + 1))
+        self.queue.append(self.element + 1)
+        print("The second Element Added =", (self.element + 2))
+        self.queue.append(self.element + 2)
+        print("Now Queue contains =", self.queue)
+
     def checkInsertOperation(self):
 
         # by Using the Automation code
         print('\n')
         print("****Insert Operation using Queue Automation****")
-        print("Initially Queue contains =", self.queue)
-        print("The first Element Added =", (self.element+1))
-        self.queue.append(self.element + 1)
-        print("The second Element Added =", (self.element+2))
-        self.queue.append(self.element + 2)
-        print("Now Queue contains =", self.queue)
+        self.addElements()
         self.queue.append(self.element)  # random element is appended
         print("After Insertion of Element Queue content = ", self.queue)
 
@@ -114,12 +118,7 @@ class AutomateQueue:
     def checkSizeAfterInsert(self):
         print('\n')
         print("**** Check Size After Insert Operation using Queue Automation****")
-        print("Initially Queue contains =", self.queue)
-        print("The first Element Added =", (self.element + 1))
-        self.queue.append(self.element + 1)
-        print("The second Element Added =", (self.element + 2))
-        self.queue.append(self.element + 2)
-        print("Now Queue contains =", self.queue)
+        self.addElements()
         size = 0
         # finding size
         for elements in self.queue:
@@ -146,20 +145,11 @@ class AutomateQueue:
             print("Test Case is Failed size is not Equal")
 
 
-
-
     def checkSizeAfterRemove(self):
 
         print('\n')
         print("**** Check Size After Insert Operation using Queue Automation****")
-        print("Initially Queue contains =", self.queue)
-        print("The first Element Added =", (self.element + 1))
-        self.queue.append(self.element + 1)
-        print("The second Element Added =", (self.element + 2))
-        self.queue.append(self.element + 2)
-        print("The second Element Added =", (self.element + 3))
-        self.queue.append(self.element + 3)
-        print("Now Queue contains =", self.queue)
+        self.addElements()
         print(" Element Remove from Queue ", self.queue.popleft())
         print("After Remove of Element Queue content = ", self.queue)
 
@@ -192,16 +182,8 @@ class AutomateQueue:
         pass
 
     def checkRemoveFromEmptyQueue(self):
-        print("Initially Queue contains =", self.queue)
-        print("The first Element Added =", (self.element + 1))
-        self.queue.append(self.element + 1)
-        print("The second Element Added =", (self.element + 2))
-        self.queue.append(self.element + 2)
-        print("The second Element Added =", (self.element + 3))
-        self.queue.append(self.element + 3)
-        self.queue.popleft()
-        self.queue.popleft()
-        self.queue.popleft()
+
+        print('now Queue contains', self.queue)
         try:
             self.queue.popleft()
         except IndexError:
@@ -209,4 +191,4 @@ class AutomateQueue:
 
 
 m = AutomateQueue()
-m.checkRemoveFromEmptyQueue()
+m.checkInsertOperation()
