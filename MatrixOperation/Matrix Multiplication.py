@@ -3,7 +3,7 @@ class Multiplication:
 
         rowINM1 = int(input('Enter the number of rows of 1st matrix :'))
         colInM1 = int(input('Enter the number of column of 1st matrix :'))
-        mat1=[]
+        mat1 = []
         for rowsinm1 in range(0,rowINM1):
             mat1.append([])
         print('Enter the elements of first Matrix')
@@ -13,7 +13,8 @@ class Multiplication:
                 mat1[row][col] = 0
                 print('row',row+1,'col', col+1)
                 mat1[row][col] = int(input())
-        print(mat1)
+        for values in mat1:
+            print(values)
 
         rowINM2 = int(input('Enter the number of rows of 2nd matrix :'))
         colInM2 = int(input('Enter the number of rows of 2nd matrix :'))
@@ -27,7 +28,8 @@ class Multiplication:
                 mat2[row][col] = 0
                 print('row', row + 1, 'col',col + 1)
                 mat2[row][col] = int(input())
-        print(mat2)
+        for values in mat2:
+            print(values)
 
         result = []
 
@@ -54,8 +56,6 @@ class Multiplication:
             print("please provide proper input")
 
         print('output matrix',result)
-
-
 
 
 

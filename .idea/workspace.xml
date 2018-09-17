@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e805109d-6505-49f5-b59f-533c0a11253a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationPython/AutomateStack.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationPython/AutomateStack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationPython/QueueAutomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationPython/QueueAutomation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationPython/SortingAutomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationPython/SortingAutomation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixOperation/Matrix addition.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/Matrix addition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +41,7 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="livepython" value="1" />
-          <entry key="py" value="192" />
+          <entry key="py" value="194" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="7" />
           <entry key="xml" value="3" />
@@ -57,7 +50,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="192" />
+          <entry key="Python" value="194" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -66,7 +59,7 @@
         <counts>
           <entry key="Python Console" value="43" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="45266" />
+          <entry key="py" value="46226" />
           <entry key="txt" value="111" />
           <entry key="xml" value="6" />
         </counts>
@@ -74,7 +67,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="156" />
-          <entry key="Python" value="45309" />
+          <entry key="Python" value="46269" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -96,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix addition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="1020">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
             </state>
           </provider>
         </entry>
@@ -105,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="455">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -115,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="969">
-              <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+              <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -124,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/AutomationPython/AutomateStack.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="23" />
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="23" />
               <folding>
                 <marker date="1537180026440" expanded="true" signature="1645:1651" ph="..." />
               </folding>
@@ -136,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/AutomationPython/SortingAutomation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding>
                 <element signature="e#39#52#0" expanded="true" />
                 <marker date="1537180167794" expanded="true" signature="1109:1146" ph="..." />
@@ -149,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
               <folding>
                 <element signature="e#90#134#0" expanded="true" />
               </folding>
@@ -157,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutomationPython/QueueAutomation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="273">
+              <caret line="174" column="32" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
               <folding>
                 <element signature="e#73#102#0" expanded="true" />
                 <marker date="1537181448616" expanded="true" signature="368:1079" ph="..." />
@@ -171,6 +164,18 @@
                 <marker date="1537181448616" expanded="true" signature="4524:4530" ph="..." />
                 <marker date="1537181448616" expanded="true" signature="4561:4562" ph="..." />
                 <marker date="1537181448616" expanded="true" signature="5546:5551" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixTanspond.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding>
+                <marker date="1537188929649" expanded="true" signature="70:1306" ph="..." />
               </folding>
             </state>
           </provider>
@@ -217,8 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/ReadingLinesAndItsFunctions.py" />
-        <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/MovingData.py" />
         <option value="$PROJECT_DIR$/FileIO/abc.txt" />
         <option value="$PROJECT_DIR$/FileIO/MovingData.py" />
         <option value="$PROJECT_DIR$/FileIO/ReadingLinesAndItsFunctions.py" />
@@ -262,17 +265,19 @@
         <option value="$PROJECT_DIR$/SortingTypes/Sorting.py" />
         <option value="$PROJECT_DIR$/SortingTypes/Merge.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/Matrix addition.py" />
-        <option value="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" />
         <option value="$PROJECT_DIR$/AutomationPython/AutomateStack.py" />
         <option value="$PROJECT_DIR$/AutomationPython/SortingAutomation.py" />
         <option value="$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py" />
         <option value="$PROJECT_DIR$/AutomationPython/QueueAutomation.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py" />
+        <option value="$PROJECT_DIR$/MatrixOperation/MatrixTanspond.py" />
+        <option value="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" />
+        <option value="$PROJECT_DIR$/MatrixOperation/MatrixDivsion.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -280,7 +285,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -385,6 +390,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -407,49 +413,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MatrixSubtraction">
-    <configuration name="AutomateStack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonLearningclasses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutomationPython" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutomationPython/AutomateStack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="CalculatorAutomation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonLearningclasses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutomationPython" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.MatrixTanspond">
     <configuration name="ClassCalculator" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -471,6 +435,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MatrixDivsion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonLearningclasses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatrixOperation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatrixOperation/MatrixDivsion.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MatrixSubtraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -484,6 +469,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MatrixTanspond" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonLearningclasses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatrixOperation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatrixOperation/MatrixTanspond.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -538,17 +544,17 @@
       <item itemvalue="Python.ClassCalculator" />
       <item itemvalue="Python.QueueAutomation" />
       <item itemvalue="Python.SortingAutomation" />
-      <item itemvalue="Python.AutomateStack" />
-      <item itemvalue="Python.CalculatorAutomation" />
       <item itemvalue="Python.MatrixSubtraction" />
+      <item itemvalue="Python.MatrixDivsion" />
+      <item itemvalue="Python.MatrixTanspond" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MatrixTanspond" />
+        <item itemvalue="Python.MatrixDivsion" />
         <item itemvalue="Python.MatrixSubtraction" />
         <item itemvalue="Python.SortingAutomation" />
         <item itemvalue="Python.QueueAutomation" />
-        <item itemvalue="Python.CalculatorAutomation" />
-        <item itemvalue="Python.AutomateStack" />
       </list>
     </recent_temporary>
   </component>
@@ -586,7 +592,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" weight="0.16491044" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.16807166" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -597,7 +603,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49894625" weight="0.329718" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49789253" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.32968238" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5147524" side_tool="true" weight="0.3470716" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.581138" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -658,20 +664,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="new code changes and packaging is done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/prepare.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="107" column="10" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonLearningPractice/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="431" column="14" selection-start-line="431" selection-start-column="14" selection-end-line="431" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -868,17 +860,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AutomationPython/AutomateStack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="23" />
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="23" />
           <folding>
             <marker date="1537180026440" expanded="true" signature="1645:1651" ph="..." />
           </folding>
@@ -888,7 +873,7 @@
     <entry file="file://$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
             <element signature="e#90#134#0" expanded="true" />
           </folding>
@@ -898,7 +883,7 @@
     <entry file="file://$PROJECT_DIR$/AutomationPython/SortingAutomation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="53" lean-forward="true" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding>
             <element signature="e#39#52#0" expanded="true" />
             <marker date="1537180167794" expanded="true" signature="1109:1146" ph="..." />
@@ -909,21 +894,35 @@
     <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
-          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix addition.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixDivsion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutomationPython/QueueAutomation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="273">
+          <caret line="174" column="32" selection-start-line="174" selection-start-column="32" selection-end-line="174" selection-end-column="32" />
           <folding>
             <element signature="e#73#102#0" expanded="true" />
             <marker date="1537181448616" expanded="true" signature="368:1079" ph="..." />
@@ -933,6 +932,16 @@
             <marker date="1537181448616" expanded="true" signature="4524:4530" ph="..." />
             <marker date="1537181448616" expanded="true" signature="4561:4562" ph="..." />
             <marker date="1537181448616" expanded="true" signature="5546:5551" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixTanspond.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <marker date="1537188929649" expanded="true" signature="70:1306" ph="..." />
           </folding>
         </state>
       </provider>
