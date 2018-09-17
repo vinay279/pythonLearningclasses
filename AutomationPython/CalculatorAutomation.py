@@ -9,7 +9,7 @@ class AutomateCalculator:
 
     def __init__(self):
         self.randomNO2 = random.randint(0, 1000)
-        self.randomNO1 = random.uniform(0, 1000)
+        self.randomNO1 = random.randint(0, 1000)
 
     def automateAdd(self):
         print(" Test Case for  Addition ")
@@ -18,6 +18,7 @@ class AutomateCalculator:
         num1 = self.randomNO1
         num2 = self.randomNO2
         print("Addition by Automated funnction =", num1 + num2)
+
 
         # By using the function
         c = Calculator()
@@ -29,6 +30,7 @@ class AutomateCalculator:
 
         else:
             print(" Test Automation of of Calculator Addition is failed ")
+        print('*' * 70)
 
     def automateSubtraction(self):
         print("Test Case for Subtraction")
@@ -48,6 +50,7 @@ class AutomateCalculator:
 
         else:
             print(" Test Automation of of Calculator Subtraction is failed ")
+        print('*' * 70)
 
     # Automation test for the Multiply
     def automateMultiply(self):
@@ -68,6 +71,7 @@ class AutomateCalculator:
 
         else:
             print(" Test Automation of of Calculator Multiply is failed ")
+        print('*' * 70)
 
     # Automated test for the division
     def automateDivision(self):
@@ -82,6 +86,7 @@ class AutomateCalculator:
         except ZeroDivisionError:
             print(num1, "/", num2, " = Infinity")
 
+
         # By using the function
         c = Calculator()
         division = c.multiply(num1, num2)
@@ -92,6 +97,7 @@ class AutomateCalculator:
 
         else:
             print(" Test Automation of of Calculator Division is failed ")
+        print('*' * 70)
 
 
 

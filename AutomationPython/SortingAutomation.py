@@ -1,44 +1,57 @@
 '''Class for the Sorting Automation'''
 import random
-from SortingTypes import Bubble,Quick,Selection,Insertion,Radix,Merge
+from SortingTypes import Bubble, Quick, Selection, Insertion, Radix, Merge
 class SortingAutomation:
     def __init__(self):
         self.elements = []
 
-    # checking the Bubble sorting
-    def checkBubbleSort(self):
+    # Inserting Elements in List
 
-
+    def inserting(self):
         for value in range(10):
             self.elements.append(random.randrange(1, 101))
-        print(self.elements)
+        print("Elements list for Sorting =", self.elements)
 
+
+    # Check the values in list and the length of list
+    def checkValuesAndLength(self, elements, sample):
+        if len(self.elements) == len(sample):
+            for i in range(len(self.elements)):
+                if self.elements[i] == sample[i]:
+                    print("value are Equal in two list", self.elements[i], '=', sample[i])
+
+                else:
+                    print("Elements are not equal sorting fail")
+                # for checking the total element list
+        if len(self.elements) == len(sample):
+            print("length of two sorted list is aso equal ")
+
+        print("Test case of Soring passed", '\n')
+
+    # for Clearing list
+    def clearlist(self):
+        self.elements.clear()
+
+
+    # checking the Bubble sorting
+    def checkBubbleSort(self):
+        print("****Test case for Checking Bubble Sort****")
+        self.clearlist()
+        self.inserting()
         sample2 = self.elements
         bObj = Bubble.BubbleSort()
         bObj.BubbleSort(sample2)
         # check bubble sort after comaparing with selection sort
         csObj = Selection.Selection()
         csObj.selectionSort(self.elements)
-
-
-        for values in self.elements:
-            for element in sample2:
-                if values == element:
-                        None
-            print("Bubble sort Test Case passed")
-            break
-        else:
-            print("Test case of Bubble sort is failed is failed")
-
-        # for checking the total element list
-        if len(self.elements) == len(sample2):
-                print("length is also equal ",'\n')
+        self.checkValuesAndLength(self.elements, sample2)
+        print('*' * 70)
 
 
     def CheckSelectionSort(self):
-        for value in range(10):
-            self.elements.append(random.randrange(1, 101))
-
+        print("****Test case for Checking Selection Sort****")
+        self.clearlist()
+        self.inserting()
         sample2 = self.elements
         bObje = Selection.Selection()
         bObje.selectionSort(sample2)
@@ -46,21 +59,14 @@ class SortingAutomation:
         buobj = Bubble.BubbleSort()
         buobj.BubbleSort(self.elements)
 
-        if len(self.elements) == len(sample2):
-            for i in range(len(self.elements)):
-                if self.elements[i] == sample2[i]:
-                    print("value are Equal in two list", self.elements[i], '=', sample2[i])
-
-                else:
-                    print("Elements are not equal Selection sorting fails")
-        print("Test case of Selection Soring passed",'\n')
+        self.checkValuesAndLength(self.elements,sample2)
+        print('*' * 70)
 
     # for checking Quick sort is running
     def checkQuickSort(self):
-        for value in range(10):
-            self.elements.append(random.randrange(1, 101))
-        print(self.elements)
-
+        print("****Test case for Checking Quick Sort****")
+        self.clearlist()
+        self.inserting()
         sample2 = self.elements
         bobje = Selection.Selection()
         bobje.selectionSort(sample2)
@@ -68,28 +74,14 @@ class SortingAutomation:
         # check Quick sort after comaparing with selection sort
         Qobj = Quick.QuickS()
         Qobj.quickSort(self.elements)
-
-        if len(self.elements) == len(sample2):
-            for i in range(len(self.elements)):
-                if self.elements[i] == sample2[i]:
-                    print("value are Equal in two list", self.elements[i], '=', sample2[i])
-
-                else:
-                    print("Elements are not equal Quick sorting fails",'\n')
-
-
-        # for checking the total element list
-        if len(self.elements) == len(sample2):
-            print("length is also equal ")
-
-        print("Test case of Quick Soring passed")
+        self.checkValuesAndLength(self.elements, sample2)
+        print('*' * 70)
 
     # for Radix sort
     def checkRadixSort(self):
-        for value in range(10):
-            self.elements.append(random.randrange(1, 101))
-        print(self.elements)
-
+        print("****Test case for Checking Radix Sort****")
+        self.clearlist()
+        self.inserting()
         sample2 = self.elements
         Qsobj = Quick.QuickS()
         Qsobj.quickSort(self.elements)
@@ -97,28 +89,16 @@ class SortingAutomation:
         # check Quick sort after comaparing with selection sort
         Qobj = Radix.Radix()
         Qobj.radixSort(self.elements)
-
-        if len(self.elements) == len(sample2):
-            for i in range(len(self.elements)):
-                if self.elements[i] == sample2[i]:
-                    print("value are Equal in two list", self.elements[i], '=', sample2[i])
-
-                else:
-                    print("Elements are not equal radix sorting fails")
+        self.checkValuesAndLength(self.elements, sample2)
 
 
-        # for checking the total element list
-        if len(self.elements) == len(sample2):
-            print("length of two sorted list is aso equal ")
 
-        print("Test case of radix  Soring passed",'\n')
 
     # checking insertion sort
     def checkingInsertionSort(self):
-        for value in range(10):
-            self.elements.append(random.randrange(1, 101))
-        print(self.elements)
-
+        print("****Test case for Insertion Bubble Sort****")
+        self.clearlist()
+        self.inserting()
         sample2 = self.elements
         Robj = Radix.Radix()
         Robj.radixSort(self.elements)
@@ -126,28 +106,14 @@ class SortingAutomation:
         # check radix sort after comaparing with insertion sort
         Qobj = Insertion.Insertion()
         Qobj.insertionSort(self.elements)
-
-        if len(self.elements) == len(sample2):
-            for i in range(len(self.elements)):
-                if self.elements[i] == sample2[i]:
-                    print("value are Equal in two list", self.elements[i], '=', sample2[i])
-
-                else:
-                    print("Elements are not equal Insertion sorting fails")
-
-
-        # for checking the total element list
-        if len(self.elements) == len(sample2):
-            print("length of two sorted list is aso equal ")
-
-        print("Test case of Insertion  Soring passed",'\n')
+        self.checkValuesAndLength(self.elements, sample2)
+        print('*' * 70)
 
     # checking the merge Sorting
     def checkMergeSorting(self):
-        for value in range(10):
-            self.elements.append(random.randrange(1, 101))
-        print("List to be Sorted is = ", self.elements)
-
+        print("****Test case for Checking Merge Sort****")
+        self.clearlist()
+        self.inserting()
         sample2 = self.elements
         Robj = Radix.Radix()
         Robj.radixSort(self.elements)
@@ -156,27 +122,14 @@ class SortingAutomation:
         Qobj = Merge.Merge()
         Qobj.mergesort(self.elements)
         print("Merge Sorted list = ", self.elements)
-
-        if len(self.elements) == len(sample2):
-            for i in range(len(self.elements)):
-                if self.elements[i] == sample2[i]:
-                    print("value are Equal in two list", self.elements[i], '=', sample2[i])
-
-                else:
-                    print("Elements are not equal Insertion sorting fails")
+        self.checkValuesAndLength(self.elements, sample2)
+        print('*' * 70)
 
 
-        # for checking the total element list
-        if len(self.elements) == len(sample2):
-            print("length of two sorted list is aso equal ")
-
-        print("Test case of Insertion  Soring passed",'\n')
-
-
-clsObj = SortingAutomation()
-clsObj.checkMergeSorting()
-clsObj.checkBubbleSort()
-clsObj.checkingInsertionSort()
-clsObj.checkMergeSorting()
-clsObj.checkRadixSort()
-clsObj.CheckSelectionSort()
+obj = SortingAutomation()
+obj.checkBubbleSort()
+obj.CheckSelectionSort()
+obj.checkQuickSort()
+obj.checkRadixSort()
+obj.checkingInsertionSort()
+obj.checkMergeSorting()

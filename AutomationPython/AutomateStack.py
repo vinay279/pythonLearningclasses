@@ -7,6 +7,19 @@ class AutomateStack:
         self.random = randint(0, 1000)
         self.stack = [10, 3]
 
+    def comparebeforeSize(self, size1, size2):
+        if size1 == size2:
+            print('Test For Size Of Stack is Passed\n')
+        else:
+            print("Test case of check size Before  Failed\n")
+
+    def comparsizeafter(self, size0, size1):
+        if size0 == size1:
+            print('Test For Size Of Stack  Passed\n')
+        else:
+            print("Test case of check size Failed\n")
+
+
     def checkSizeBeforeAndAfterPush(self):
         # using Automation
         print("Checking the size of stack after push  \n")
@@ -27,18 +40,12 @@ class AutomateStack:
         q.push(self.random)
         sizeAfterPushOfStackUsingFunction = len(q.items)
 
-        if sizeBefore == sizeBeforePushOfStackUsingFunction :
-            print('Test For Size Of Stack Before PUSH Data Passed\n')
-        else:
-            print("Test case of check size Before PUSH Data Failed\n")
+        # compare size
+        self.comparebeforeSize(sizeBefore, sizeBeforePushOfStackUsingFunction)
+        self.comparsizeafter(sizeAfter, sizeAfterPushOfStackUsingFunction)
 
-        if sizeAfter == sizeAfterPushOfStackUsingFunction:
-            print('Test For Size Of Stack After PUSH Data Passed\n')
-        else:
-            print("Test case of check size After PUSH Data Failed\n")
-
-
-                         #method for checking the size of stack
+        print('*' * 60)
+     #method for checking the size of stack
 
     def checkSizeBeforeAndAfterPop(self):
         # using automated task
@@ -61,22 +68,15 @@ class AutomateStack:
         sizeAfterPopUsingFun = len(s.items)
         print('Size of stack After pop using function', len(s.items))
 
-        if sizeBeforePopOfStackA == sizeBeforePopUsingFun:
-            print('Test For Size Of Stack Before POP Data Passed\n')
-        else:
-            print("Test case of check size Before POP Data Failed\n")
-
-        if sizeAfterPopOfStackA == sizeAfterPopUsingFun:
-            print('Test For Size Of Stack After POP Data Passed\n')
-        else:
-            print("Test case of check size After POP Data is Failed\n")
-
+        self.comparebeforeSize(sizeBeforePopOfStackA, sizeBeforePopUsingFun)
+        self.comparsizeafter(sizeAfterPopOfStackA, sizeAfterPopUsingFun)
+        print('*' * 60)
 
     # checking pop from the Empty stack
     def checkPopFromEmpty(self):
-        print(' Checking Pop from the Empty stack using Automation ')
+        print('Checking Pop from the Empty stack using Automation ')
         self.stack.clear()
-        print(self.stack)
+        print("Stack = ", self.stack)
 
         try:
             self.stack.pop(0)
@@ -85,20 +85,25 @@ class AutomateStack:
             print("Test case is passed\n")
 
         # using function
+        print("**Using Function**")
+        print("stack = ", self.stack)
         print("Trying to Pop from Empty list")
         d = Stack()
         d.items.clear()  # clear All list
         d.pop()
         print(" Test case is Passed using the Function is passed")
+        print('*' * 60)
 
         # checking the push operation
     def checkPushOperation(self):
         # using the automation
+        print('Test case for Push Operation')
         self.stack.append(int(self.random))
+        print("Push Element is : ", self.random)
         # checking is stack contains
         if self.random in self.stack:
             print(self.random, "data is present in the list")
-        print(" PUSH data using Automation contains", self.stack, '\n')
+        print("PUSH data using Automation contains", self.stack, '\n')
         self.stack.pop(len(self.stack) - 1)
 
         # using the function
@@ -107,18 +112,19 @@ class AutomateStack:
         q.push(int(self.random))
         # checking is stack contains data or not
         if self.random in q.items:
-            print(self.random, "Is present in stack ")
+            print("Is present in stack ", self.random)
         else:
             print("Test case Failed")
+        print('*' * 60)
 
     # checking the pop operation
-    def popOperation(self):
+    def checkPopOperation(self):
 
         print("POP Data using Automation")
         print('Initially Stack contains =', self.stack)
         popitemindex = len(self.stack)-1
         popitem = self.stack[popitemindex]
-        print(' popitem', self.stack[popitemindex])
+        print('popitem', self.stack[popitemindex])
         self.stack.pop(len(self.stack) - 1)
         if popitem not in self.stack:
             print(popitem, "Is Not present in stack ")
@@ -138,7 +144,12 @@ class AutomateStack:
             print("Test case is pass")
         else:
             print("Test case Failed")
+        print('*'*60)
 
 
 sa = AutomateStack()
-sa.popOperation()
+sa.checkPushOperation()
+sa.checkPopOperation()
+sa.checkSizeBeforeAndAfterPush()
+sa.checkSizeBeforeAndAfterPop()
+sa.checkPopFromEmpty()

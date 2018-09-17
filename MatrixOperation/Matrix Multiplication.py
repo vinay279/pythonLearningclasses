@@ -1,44 +1,63 @@
-class MatrixMultiplication:
-    print('MATRIX MULTIPLICATION\n')
-    print("NOTE - The 1st MATRIX COLUMNS COUNT = 2ND MATRIX ROWS COUNT")
+class Multiplication:
+    def matMul(self):
 
-    # Prints the sum of matrix of orders mxn
-    first_row_count = int(input('Enter the number of rows of 1st matrix :'))
-    first_col_count = int(input('Enter the number of columns of 1st matrix :'))
-
-    second_row_count = int(input('Enter the number of rows of 2nd matrix :'))
-    second_col_count = int(input('Enter the number of columns 2nd 1st matrix :'))
-
-    first_Matrix = []
-    second_matrix = []
-    if first_col_count == second_row_count:
-
+        rowINM1 = int(input('Enter the number of rows of 1st matrix :'))
+        colInM1 = int(input('Enter the number of column of 1st matrix :'))
+        mat1=[]
+        for rowsinm1 in range(0,rowINM1):
+            mat1.append([])
         print('Enter the elements of first Matrix')
-        for rowValue1 in range(0, first_row_count):
-            M1Row = []
+        for row in range(0,rowINM1):
+            for col in range(0,colInM1):
+                mat1[row].append(col)
+                mat1[row][col] = 0
+                print('row',row+1,'col', col+1)
+                mat1[row][col] = int(input())
+        print(mat1)
 
-            for colValue1 in range(0, first_col_count):
-                input_variable = int(input('Enter the element at matrix[{0}][{1}]'.format(rowValue1, colValue1)))
-                M1Row.append(input_variable)
-            first_Matrix.append(M1Row)
+        rowINM2 = int(input('Enter the number of rows of 2nd matrix :'))
+        colInM2 = int(input('Enter the number of rows of 2nd matrix :'))
+        mat2 = []
+        for rowsinm2 in range(0, rowINM2):
+            mat2.append([])
+        print('Enter the elements of second Matrix')
+        for row in range(0, rowINM2):
+            for col in range(0, colInM2):
+                mat2[row].append(col)
+                mat2[row][col] = 0
+                print('row', row + 1, 'col',col + 1)
+                mat2[row][col] = int(input())
+        print(mat2)
 
-        print('Enter the elements of first Matrix')
-        for rowValue2 in range(0, first_row_count):
-            M2row = []
+        result = []
 
-            for j in range(0, first_col_count):
-                input_variable = int(input('Enter the element at matrix[{0}][{1}]'.format(rowValue2, j)))
-                M2row.append(input_variable)
-            second_matrix.append(M2row)
+        for resultrows in range(0, rowINM2):
+            result.append([])
 
+        for row in range(0, colInM1):
+            for col in range(0, rowINM2):
+                result[row].append(col)
+                result[row][col] = 0
 
-            print('Matrix output')
-            result = [[first_Matrix[i][j] * second_matrix[j][i]
-                       for j in range(len(first_Matrix[0]))]
-                      for i in range(len(first_Matrix))]
+        # multiplication
+        if colInM1 == rowINM2:
+            for rowinmat1 in range(0,len(mat1)):
+                for roweleM2of0 in range(0,len(mat2[0])):
+                    for rowsinm2 in range(0,len(mat2)):
+                        result[rowinmat1][roweleM2of0] += mat1[rowinmat1][rowsinm2] * mat2[rowsinm2][roweleM2of0]
 
-            for values in result:
-                print(values)
+        print("Matrix Output")
+        for values in result:
+            print(values)
+
         else:
-            print('The  Size of matrix are differnt ')
-        print('The Matrix Sum performed')
+            print("please provide proper input")
+
+        print('output matrix',result)
+
+
+
+
+
+c = Multiplication()
+c.matMul()
