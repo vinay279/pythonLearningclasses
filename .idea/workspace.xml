@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e805109d-6505-49f5-b59f-533c0a11253a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MatrixOperation/DiagonalOrScalarMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/DiagonalOrScalarMatrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MatrixOperation/LowerTriangularMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/LowerTriangularMatrix.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixOperation/Matrix addition.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/Matrix addition.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixOperation/MatrixCreation.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/MatrixCreation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixOperation/MatrixIdentity.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/MatrixIdentity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatrixOperation/UpperTriangularMatrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/MatrixOperation/UpperTriangularMatrix.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +61,7 @@
         <counts>
           <entry key="Python Console" value="43" />
           <entry key="dummy" value="73" />
-          <entry key="py" value="49455" />
+          <entry key="py" value="49521" />
           <entry key="txt" value="111" />
           <entry key="xml" value="6" />
         </counts>
@@ -74,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="184" />
-          <entry key="Python" value="49498" />
+          <entry key="Python" value="49564" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -93,11 +88,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix addition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="473">
+              <caret line="63" column="20" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="26" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -105,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+            <state relative-caret-position="289">
+              <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -114,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            <state relative-caret-position="456">
+              <caret line="65" column="49" lean-forward="true" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -126,17 +121,17 @@
             <state relative-caret-position="357">
               <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <marker date="1537273658480" expanded="true" signature="139:144" ph="..." />
+                <marker date="1537278902390" expanded="true" signature="139:144" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixIdentity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+            <state relative-caret-position="493">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <marker date="1537273658449" expanded="true" signature="479:484" ph="..." />
               </folding>
@@ -277,13 +272,13 @@
         <option value="$PROJECT_DIR$/MatrixOperation/DiagonalMatrix.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/MatrixTranspose.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/MatrixCreation.py" />
-        <option value="$PROJECT_DIR$/MatrixOperation/LowerTriangularMatrix.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/MatrixIdentity.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/DiagonalOrScalarMatrix.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/UpperTriangularMatrix.py" />
-        <option value="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" />
-        <option value="$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/Matrix addition.py" />
+        <option value="$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py" />
+        <option value="$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py" />
+        <option value="$PROJECT_DIR$/MatrixOperation/LowerTriangularMatrix.py" />
       </list>
     </option>
   </component>
@@ -424,7 +419,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Matrix Multiplication">
+  <component name="RunManager" selected="Python.Matrix addition">
     <configuration name="ClassCalculator" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -509,27 +504,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MatrixCreation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonLearningclasses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatrixOperation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatrixOperation/MatrixCreation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="MatrixIdentity" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -551,21 +525,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="MatrixSubtraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonLearningclasses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatrixOperation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.ClassCalculator" />
       <item itemvalue="Python.MatrixIdentity" />
       <item itemvalue="Python.LowerTriangularMatrix" />
-      <item itemvalue="Python.MatrixCreation" />
       <item itemvalue="Python.Matrix addition" />
       <item itemvalue="Python.Matrix Multiplication" />
+      <item itemvalue="Python.MatrixSubtraction" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Matrix Multiplication" />
         <item itemvalue="Python.Matrix addition" />
+        <item itemvalue="Python.MatrixSubtraction" />
+        <item itemvalue="Python.Matrix Multiplication" />
         <item itemvalue="Python.LowerTriangularMatrix" />
         <item itemvalue="Python.MatrixIdentity" />
-        <item itemvalue="Python.MatrixCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -601,6 +596,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.16807166" />
       <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
@@ -948,13 +944,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixIdentity.py">
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding>
-            <marker date="1537273658449" expanded="true" signature="479:484" ph="..." />
-          </folding>
+        <state relative-caret-position="456">
+          <caret line="65" column="49" lean-forward="true" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix addition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="63" column="20" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -963,29 +970,18 @@
         <state relative-caret-position="357">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
-            <marker date="1537273658480" expanded="true" signature="139:144" ph="..." />
+            <marker date="1537278902390" expanded="true" signature="139:144" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix Multiplication.py">
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixIdentity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixOperation/MatrixSubtraction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix addition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <marker date="1537273658449" expanded="true" signature="479:484" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

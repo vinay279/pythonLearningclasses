@@ -22,7 +22,10 @@ class MatrixSubtraction:
                     input_variable = int(input('-row {0} col {1} ='.format(irow, jcol, '\n')))
                     row.append(input_variable)
                 first_Matrix.append(row)
-            print(first_Matrix,'\n')
+
+            print("First Matrix you Entered :")
+            for values in first_Matrix:
+                print(values)
 
             print('Enter the elements of second Matrix')
             for irow in range(0, second_row_count):
@@ -32,7 +35,10 @@ class MatrixSubtraction:
                     input_variable = int(input('-row {0} col {1} ='.format(irow, jcol, '\n')))
                     row.append(input_variable)
                 second_matrix.append(row)
-            print("Second Matrix", second_matrix)
+
+            print("First Matrix you Entered :")
+            for values in first_Matrix:
+                print(values)
 
 
             print(' Matrix Output')
@@ -50,11 +56,15 @@ class MatrixSubtraction:
                     for roweleM2of0 in range(0, len(second_matrix[0])):
                         for rowsinm2 in range(0, len(second_matrix)):
                             result[rowinmat1][roweleM2of0] = first_Matrix[rowinmat1][rowsinm2] - second_matrix[rowsinm2][roweleM2of0]
+
+
             print("matrix Output")
             for values in result:
                    print(values)
         else:
             print('The  Size of matrix are differnt ')
-        print('The Matrix Sum performed')
+        print('The Matrix subtraction performed')
+
+
 q = MatrixSubtraction()
 q.matrixSubtraction()

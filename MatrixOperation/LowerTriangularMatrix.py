@@ -16,6 +16,6 @@ class LowerTriangularMatrix:
             print(values)
 
 
-z= LowerTriangularMatrix()
+z = LowerTriangularMatrix()
 z.lowerTriangularMatrix()
 

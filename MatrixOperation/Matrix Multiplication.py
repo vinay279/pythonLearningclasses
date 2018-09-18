@@ -45,15 +45,17 @@ class Multiplication:
                 for roweleM2of0 in range(0,len(mat2[0])):
                     for rowsinm2 in range(0,len(mat2)):
                         result[rowinmat1][roweleM2of0] += mat1[rowinmat1][rowsinm2] * mat2[rowsinm2][roweleM2of0]
+        else:
+            print("please provide proper input")
 
         print("Matrix Output")
         for values in result:
             print(values)
+        print("Matrix Multiplication is Performed ")
 
-        else:
-            print("please provide proper input")
 
-        print('output matrix',result)
+
+
 
 
 
