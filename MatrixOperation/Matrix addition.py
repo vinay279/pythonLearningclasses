@@ -19,20 +19,25 @@ class MatrixAddition:
                 row = []
 
                 for jcol in range(0, first_col_count):
-                    input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(irow, jcol,'\n')))
+                    input_variable = int(input('-row {0} col {1} ='.format(irow, jcol, '\n')))
                     row.append(input_variable)
                 first_Matrix.append(row)
-            print(first_Matrix,'\n')
+            print("First Matrix you Entered :")
+            for values in first_Matrix:
+                print(values)
 
             print('Enter the elements of second Matrix')
             for irow in range(0, second_row_count):
                 row = []
 
                 for jcol in range(0, second_col_count):
-                    input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(irow, jcol)))
+                    input_variable = int(input('-row{0} col {1} ='.format(irow, jcol)))
                     row.append(input_variable)
                 second_matrix.append(row)
-            print("Second Matrix", second_matrix)
+
+            print("Second Matrix you Entered :")
+            for values in second_matrix:
+                print(values)
 
 
             print(' Matrix Output')

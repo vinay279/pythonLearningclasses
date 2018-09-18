@@ -6,22 +6,21 @@
                                         | 0  2  0 |
                                         | 0  0  3 |
         '''
-
+from MatrixOperation.MatrixCreation import CreateNullMAtrix as K
 class DiagonalMatrix:
-
     # method for creating the diagonal matrix
     def diagonalMatrix(self):
 
-        for row in range(len(Matrix)):
-            for col in range(len(Matrix[0])):
+        for row in range(len(K.Matrix)):
+            for col in range(len(K.Matrix[0])):
                 if row == col:
-                    Matrix[row][col] = int(input("Enter the values you want enter diagonally "))
+                    K.Matrix[row][col] = int(input("Enter the values you want enter diagonally "))
                 else:
-                    Matrix[row][col] = 0
+                    K.Matrix[row][col] = 0
 
         print("\n")
         print("Diagonal Matrix  :")
-        for values in Matrix:
+        for values in K.Matrix:
             print(values)
 
 

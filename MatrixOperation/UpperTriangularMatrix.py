@@ -1,5 +1,5 @@
 ''' class for the upper triangular matrix '''
-from MatrixOperation.MatrixCreation import Create as K
+from MatrixOperation.MatrixCreation import CreateNullMAtrix as K
 class UpperTriangularMatrix:
 
     def upperTriangularMatrix(self):

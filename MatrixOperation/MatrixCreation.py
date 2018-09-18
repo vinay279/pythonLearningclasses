@@ -1,4 +1,4 @@
-class Create:
+class CreateNullMAtrix:
     Matrix = []
     Rows = int(input("Enter the Number of Rows You want in the Matrix = "))
     Column = int(input("Enter the Number of Column you want in matrix = "))

@@ -11,8 +11,7 @@ class Multiplication:
             for col in range(0,colInM1):
                 mat1[row].append(col)
                 mat1[row][col] = 0
-                print('row',row+1,'col', col+1)
-                mat1[row][col] = int(input())
+                mat1[row][col] = int(input('-row {0} col {1} ='.format(row, col, '\n')))
         for values in mat1:
             print(values)
 
@@ -26,8 +25,7 @@ class Multiplication:
             for col in range(0, colInM2):
                 mat2[row].append(col)
                 mat2[row][col] = 0
-                print('row', row + 1, 'col',col + 1)
-                mat2[row][col] = int(input())
+                mat2[row][col] = int(input('-row {0} col {1} ='.format(row, col, '\n')))
         for values in mat2:
             print(values)
 

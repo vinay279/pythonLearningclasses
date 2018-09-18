@@ -1,5 +1,5 @@
 ''' class for the Lower Triangular Matrix '''
-from MatrixOperation.MatrixCreation import Create as K
+from MatrixOperation.MatrixCreation import CreateNullMAtrix as K
 class LowerTriangularMatrix:
     def lowerTriangularMatrix(self):
 

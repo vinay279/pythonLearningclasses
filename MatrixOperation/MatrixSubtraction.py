@@ -19,7 +19,7 @@ class MatrixSubtraction:
                 row = []
 
                 for jcol in range(0, first_col_count):
-                    input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(irow, jcol,'\n')))
+                    input_variable = int(input('-row {0} col {1} ='.format(irow, jcol, '\n')))
                     row.append(input_variable)
                 first_Matrix.append(row)
             print(first_Matrix,'\n')
@@ -29,7 +29,7 @@ class MatrixSubtraction:
                 row = []
 
                 for jcol in range(0, second_col_count):
-                    input_variable = int(input('Enter the element at mat[{0}][{1}]'.format(irow, jcol)))
+                    input_variable = int(input('-row {0} col {1} ='.format(irow, jcol, '\n')))
                     row.append(input_variable)
                 second_matrix.append(row)
             print("Second Matrix", second_matrix)

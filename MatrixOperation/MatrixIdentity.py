@@ -8,7 +8,7 @@ Example of unit matrix can be given as = | 1  0  0 |
                                          | 0  1  0 |
                                          | 0  0  1 |
 '''
-from MatrixOperation.MatrixCreation import Create as M
+from MatrixOperation.MatrixCreation import CreateNullMAtrix as M
 class IdentityMatrix:
 
     def identityMatrix(self):
