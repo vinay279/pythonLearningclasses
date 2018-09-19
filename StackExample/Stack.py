@@ -10,9 +10,9 @@ class Stack:
 
     def push(self, data):
         self.items.append(data)
-        print("data is added successfully", data)
+        print("data is pushed successfully", data)
         print('Stack contains data after push', self.items)
-        print("size of stack is = ", len(self.items))
+
 
     def pop(self):
         try:

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e805109d-6505-49f5-b59f-533c0a11253a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomationPython/QueueAutomation.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationPython/QueueAutomation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/CircularQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/CircularQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomationPython/AutomateStack.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutomationPython/AutomateStack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackExample/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/StackExample/Stack.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +42,7 @@
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="livepython" value="1" />
-          <entry key="py" value="220" />
+          <entry key="py" value="222" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="7" />
           <entry key="xml" value="3" />
@@ -53,7 +51,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="220" />
+          <entry key="Python" value="222" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -62,7 +60,7 @@
         <counts>
           <entry key="Python Console" value="43" />
           <entry key="dummy" value="73" />
-          <entry key="py" value="50075" />
+          <entry key="py" value="50655" />
           <entry key="txt" value="111" />
           <entry key="xml" value="6" />
         </counts>
@@ -70,7 +68,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="184" />
-          <entry key="Python" value="50118" />
+          <entry key="Python" value="50698" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -90,15 +88,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MatrixOperation/Matrix addition.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutomationPython/SortingAutomation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1292">
@@ -114,11 +103,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
+            <state relative-caret-position="1445">
               <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
               <folding>
                 <element signature="e#90#134#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AutomationPython/AutomateStack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+              <folding>
+                <marker date="1537350662316" expanded="true" signature="2078:2084" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StackExample/Stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -142,7 +152,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Queue/Queue.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
@@ -257,12 +267,10 @@
         <option value="$PROJECT_DIR$/AutomationTest/TestCalculator.py" />
         <option value="$PROJECT_DIR$/Calculator/Calculator.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/Matrix.py" />
-        <option value="$PROJECT_DIR$/StackExample/Stack.py" />
         <option value="$PROJECT_DIR$/SortingTypes/Selection.py" />
         <option value="$PROJECT_DIR$/SortingTypes/Insertion.py" />
         <option value="$PROJECT_DIR$/SortingTypes/Sorting.py" />
         <option value="$PROJECT_DIR$/SortingTypes/Merge.py" />
-        <option value="$PROJECT_DIR$/AutomationPython/AutomateStack.py" />
         <option value="$PROJECT_DIR$/AutomationPython/SortingAutomation.py" />
         <option value="$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/MatrixTanspond.py" />
@@ -282,6 +290,8 @@
         <option value="$PROJECT_DIR$/Queue/CircularQueue.py" />
         <option value="$PROJECT_DIR$/AutomationPython/QueueAutomation.py" />
         <option value="$PROJECT_DIR$/Queue/Queue.py" />
+        <option value="$PROJECT_DIR$/StackExample/Stack.py" />
+        <option value="$PROJECT_DIR$/AutomationPython/AutomateStack.py" />
       </list>
     </option>
   </component>
@@ -422,7 +432,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.QueueAutomation">
+  <component name="RunManager" selected="Python.AutomateStack">
+    <configuration name="AutomateStack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonLearningclasses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AutomationPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AutomationPython/AutomateStack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CalculatorAutomation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -457,27 +488,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\pythonLearningclasses\PythonLearningPractice\PythonClasses\Calculator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="LowerTriangularMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonLearningclasses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatrixOperation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatrixOperation/LowerTriangularMatrix.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -551,19 +561,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.ClassCalculator" />
-      <item itemvalue="Python.LowerTriangularMatrix" />
       <item itemvalue="Python.MatrixIdentity" />
       <item itemvalue="Python.CalculatorAutomation" />
       <item itemvalue="Python.QueueAutomation" />
       <item itemvalue="Python.Queue" />
+      <item itemvalue="Python.AutomateStack" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AutomateStack" />
         <item itemvalue="Python.QueueAutomation" />
         <item itemvalue="Python.Queue" />
         <item itemvalue="Python.CalculatorAutomation" />
         <item itemvalue="Python.MatrixIdentity" />
-        <item itemvalue="Python.LowerTriangularMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -736,13 +746,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AutomationTest/TestCalculator.py" />
-    <entry file="file://$PROJECT_DIR$/StackExample/Stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -805,16 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPython/AutomateStack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="49" column="41" lean-forward="true" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
-          <folding>
-            <marker date="1537180026440" expanded="true" signature="1645:1651" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -966,16 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
-          <folding>
-            <element signature="e#90#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AutomationPython/QueueAutomation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -999,6 +982,33 @@
           <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
           <folding>
             <marker date="1537346660444" expanded="true" signature="1417:1423" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutomationPython/CalculatorAutomation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+          <folding>
+            <element signature="e#90#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StackExample/Stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutomationPython/AutomateStack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
+          <folding>
+            <marker date="1537350662316" expanded="true" signature="2078:2084" ph="..." />
           </folding>
         </state>
       </provider>

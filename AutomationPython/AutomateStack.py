@@ -22,23 +22,30 @@ class AutomateStack:
 
     def checkSizeBeforeAndAfterPush(self):
         # using Automation
-        print("Checking the size of stack after push  \n")
-        print('Initially Stack contains =', self.stack)
+        print("****Test case for Checking the size of stack after push****")
+        print("****Checking Size Of Stack Before and after push using Automation****")
+        print('Initially Stack contains =', self.stack.clear())
         sizeBefore = len(self.stack)
         print('Size of stack before push is = ', sizeBefore)
         self.stack.append(self.random)
+        print("New Data is Pushed", self.random)
+        print('Stack contains after push', self.stack)
         sizeAfter = len(self.stack)
         print('Size of stack after push is = ', sizeAfter)
         print('Stack contains after push', self.stack, '\n')
 
     # using function
-        print("Checking Size Of Stack Before and after push using function")
+        print("****Checking Size Of Stack Before and after push using function****")
         q = Stack()
+        q.items.clear()
         print('Initially Stack contains =', q.items)
         sizeBeforePushOfStackUsingFunction = len(q.items)
-
+        print("size before Push", sizeBeforePushOfStackUsingFunction)
         q.push(self.random)
         sizeAfterPushOfStackUsingFunction = len(q.items)
+        print('Size after push',sizeAfterPushOfStackUsingFunction)
+        print('Now Stack contains =', q.items)
+
 
         # compare size
         self.comparebeforeSize(sizeBefore, sizeBeforePushOfStackUsingFunction)
@@ -49,24 +56,26 @@ class AutomateStack:
 
     def checkSizeBeforeAndAfterPop(self):
         # using automated task
-        print("Checking The Size before And after POP Data using Automation")
+        print("****Checking The Size before And after POP Data using Automation****")
+        self.stack.append(self.random)
         print('Initially Stack contains =', self.stack)
         sizeBeforePopOfStackA = len(self.stack)
-        print('Size of stack before pop', len(self.stack))
-        self.stack.pop(len(self.stack) - 1)
+        print('Size of stack before pop =', len(self.stack))
+        print("The pop Element is =", self.stack.pop(len(self.stack) - 1))
         sizeAfterPopOfStackA = len(self.stack)
-        print('Size of stack after pop', len(self.stack))
-        print('Stack contains after pop', self.stack, '\n')
+        print('Size of stack after pop =', len(self.stack))
+        print('Stack contains after pop =', self.stack, '\n')
 
         # using the function
         s = Stack()
-        print("Checking The Size before And after POP Data using function")
+        print("****Checking The Size before And after POP Data using function****")
         print('Initially Stack contains in function =', s.items)
         sizeBeforePopUsingFun = len(s.items)
-        print('Size of stack before pop', len(s.items))
+        print('Size of stack before pop =', len(s.items))
+        print("Pop Element is =", s.items[len(s.items)-1])
         s.pop()
         sizeAfterPopUsingFun = len(s.items)
-        print('Size of stack After pop using function', len(s.items))
+        print('Size of stack After pop using function=', len(s.items))
 
         self.comparebeforeSize(sizeBeforePopOfStackA, sizeBeforePopUsingFun)
         self.comparsizeafter(sizeAfterPopOfStackA, sizeAfterPopUsingFun)
@@ -74,7 +83,7 @@ class AutomateStack:
 
     # checking pop from the Empty stack
     def checkPopFromEmpty(self):
-        print('Checking Pop from the Empty stack using Automation ')
+        print('****Checking Pop from the Empty stack using Automation****')
         self.stack.clear()
         print("Stack = ", self.stack)
 
@@ -82,10 +91,10 @@ class AutomateStack:
             self.stack.pop(0)
         except IndexError:
             print("list is empty you cannot pop value")
-            print("Test case is passed\n")
+
 
         # using function
-        print("**Using Function**")
+        print("****Checking Pop from the Empty stack using Function*****")
         print("stack = ", self.stack)
         print("Trying to Pop from Empty list")
         d = Stack()
@@ -97,7 +106,8 @@ class AutomateStack:
         # checking the push operation
     def checkPushOperation(self):
         # using the automation
-        print('Test case for Push Operation')
+        print('****Test case for Push Operation****')
+        print("Stack contains",self.stack)
         self.stack.append(int(self.random))
         print("Push Element is : ", self.random)
         # checking is stack contains
@@ -107,20 +117,22 @@ class AutomateStack:
         self.stack.pop(len(self.stack) - 1)
 
         # using the function
-        print('The pop Operation Using Function')
+        print('****Push Operation Using Function****')
         q = Stack()
+        print("Initially Stack contains", q.items)
         q.push(int(self.random))
         # checking is stack contains data or not
         if self.random in q.items:
-            print("Is present in stack ", self.random)
+            print(self.random, "is present in stack ")
+            print("Test case of push Operation is passed")
         else:
             print("Test case Failed")
         print('*' * 60)
 
     # checking the pop operation
     def checkPopOperation(self):
-
-        print("POP Data using Automation")
+        print("*****Test case for the POP operation from stack*****")
+        print("**** POP Data using Automation****")
         print('Initially Stack contains =', self.stack)
         popitemindex = len(self.stack)-1
         popitem = self.stack[popitemindex]
@@ -132,14 +144,14 @@ class AutomateStack:
 
         # using the function
         s = Stack()
-        print("POP Data using function")
+        print("****POP Data using function****")
         print('Initially Stack contains =', s.items)
         popitemindex = len(s.items) - 1
-        popitem = s.items[popitemindex]
-        print(' popitem', s.items[popitemindex])
+        popelement = s.items[popitemindex]
+        print(' POP Element', s.items[popitemindex])
         s.pop()
-        if popitem not in s.items:
-            print(popitem, "Is Not present in stack ")
+        if popelement not in s.items:
+            print(popelement, "Is Not present in stack ")
             print('Stack contains after pop', s.items, '\n')
             print("Test case is pass")
         else:
