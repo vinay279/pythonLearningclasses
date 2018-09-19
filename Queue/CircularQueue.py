@@ -8,7 +8,7 @@ class CQueue:
 
     def __init__(self):
         self.limit = 9999
-        self.queue = list()
+        self.queue = []
         self.front = -1
         self.rear = -1
 

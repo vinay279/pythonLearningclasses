@@ -30,6 +30,7 @@ class Queue:
         # Checking if the queue is empty
         if self.size() <= 0:  # checking the size of queue
             self.resetQueue()
+            print("Queue is Empty you cant remove from Empty queue")
             return (" Queue Empty ")
         data = self.queue[self.head]
         if data is 0:

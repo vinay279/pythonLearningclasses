@@ -76,6 +76,7 @@ class AutomateQueue:
     def checkRemoveOperation(self):
         # by Using the Automation code
         print("\n")
+        print("****Remove Operation Using Automation****")
         print("Test case for checking Remove Operation")
         self.queue.clear()
         self.addElements()
@@ -87,7 +88,7 @@ class AutomateQueue:
 
         # by Using the function written
 
-        print("****Insert Operation Using Function****")
+        print("****Remove Operation Using Function****")
         q = Queue()
         print("Initially Queue Contains", q.queue)
         q.insert(self.element + 1)
@@ -111,9 +112,10 @@ class AutomateQueue:
         # finding size
         for elements in self.queue:
             size += 1
-        print("Size of Queue Is = ", size)
+        print("Size of Automated Queue Is = ", size)
 
         # by using the function
+        print("\n")
         print("****Insert Operation Using Function****")
         q = Queue()
         print("Initially Queue Contains", q.queue)
@@ -122,9 +124,9 @@ class AutomateQueue:
         print("Now Queue Contains", q.queue)
 
         # calling function of size from the
-        q.size()
+        print("Size of Function Queue", q.size())
         if q.size() == size:
-            print("both sizes of Queue are Equal Test Case passed")
+            print("both sizes of Automated Queue and Function Queue are Equal Test Case passed")
         else:
             print("Test Case is Failed size is not Equal")
         print('*' * 70)
@@ -132,7 +134,7 @@ class AutomateQueue:
 
     def checkSizeAfterRemove(self):
         print('\n')
-        print("**** Check Size After Insert Operation using Queue Automation****")
+        print("**** Check Size After Remove Operation using Queue Automation****")
         self.queue.clear()
         self.addElements()
         print(" Element Remove from Queue ", self.queue.popleft())
@@ -145,6 +147,7 @@ class AutomateQueue:
         print("Size of Queue Is = ", size)
 
         # by using the function
+        print("\n")
         print("**** Operation Using Function****")
         q = Queue()
         print("Initially Queue Contains", q.queue)
@@ -154,10 +157,10 @@ class AutomateQueue:
         print("Now Queue Contains", q.queue)
 
         # calling function of size from the
-        q.size()
+        print("Size of Queue is ", q.size())
 
         if q.size() == size:
-            print("both sizes of Queue are Equal Test Case passed")
+            print("both sizes of Automated Queue and Function Queue are Equal Test Case passed")
 
         else:
             print("Test Case is Failed size is not Equal")
@@ -166,6 +169,7 @@ class AutomateQueue:
 
     def checkRemoveFromEmptyQueue(self):
         print('\n')
+        print("****Remove From Empty Queue Operation Using Automation****")
         print("Test case for checking Deleting from Empty Queue")
         self.queue.clear()
         print('Now Queue contains', self.queue)
@@ -174,7 +178,14 @@ class AutomateQueue:
         try:
             self.queue.popleft()
         except IndexError:
-            print("You cant Remove from Empty Queue")
+            print("You cant Remove from Empty Queue\n")
+
+        print("****Remove From Empty Queue Operation Using Automation****")
+        z = Queue()
+        z.queue.clear()
+        print("Now Queue Contains", z.queue)
+        print('Trying to Delete from Empty Queue')
+        z.remove()
         print("Test Case is Passed")
 
         print('*'*71)
