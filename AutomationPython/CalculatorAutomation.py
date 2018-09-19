@@ -8,15 +8,15 @@ class AutomateCalculator:
     # defination for the calculator Automation
 
     def __init__(self):
-        self.randomNO2 = random.randint(0, 1000)
-        self.randomNO1 = random.randint(0, 1000)
+        self.random1 = random.randint(0, 1000)
+        self.random2 = random.randint(0, 100)
 
     def automateAdd(self):
         print(" Test Case for  Addition ")
-        print(self.randomNO2, "- This is first Random number ")
-        print(self.randomNO1, "- This is second Random number ")
-        num1 = self.randomNO1
-        num2 = self.randomNO2
+        print(self.random1, "- This is first Random number ")
+        print(self.random2, "- This is second Random number ")
+        num1 = self.random1
+        num2 = self.random2
         print("Addition by Automated funnction =", num1 + num2)
 
 
@@ -34,10 +34,10 @@ class AutomateCalculator:
 
     def automateSubtraction(self):
         print("Test Case for Subtraction")
-        print(self.randomNO2, "- This is first Random number ")
-        print(self.randomNO1, "- This is second Random number ")
-        num1 = self.randomNO1
-        num2 = self.randomNO2
+        print(self.random1, "- This is first Random number ")
+        print(self.random2, "- This is second Random number ")
+        num1 = self.random1
+        num2 = self.random2
         print("Subtraction by Automated function =", num1 - num2)
 
         # By using the function
@@ -55,10 +55,10 @@ class AutomateCalculator:
     # Automation test for the Multiply
     def automateMultiply(self):
         print(" Test Case for Multiplication ")
-        print(self.randomNO2, "- This is first Random number ")
-        print(self.randomNO1, "- This is second Random number ")
-        num1 = self.randomNO1
-        num2 = self.randomNO2
+        print(self.random1, "- This is first Random number ")
+        print(self.random2, "- This is second Random number ")
+        num1 = self.random1
+        num2 = self.random2
         print("Multiply by Automated function =", num1 * num2)
 
         # By using the function
@@ -76,10 +76,10 @@ class AutomateCalculator:
     # Automated test for the division
     def automateDivision(self):
         print(" Test Case for Division ")
-        print(self.randomNO2, "- This is first Random number ")
-        print(self.randomNO1, "- This is second Random number ")
-        num1 = self.randomNO1
-        num2 = self.randomNO2
+        print(self.random1, "- This is first Random number ")
+        print(self.random2, "- This is second Random number ")
+        num1 = self.random1
+        num2 = self.random2
         try:
             print("Division by Automated function =", num1 / num2)
 
@@ -89,10 +89,10 @@ class AutomateCalculator:
 
         # By using the function
         c = Calculator()
-        division = c.multiply(num1, num2)
+        division = c.divide(num1, num2)
         print("Division Output by Calling function =", division)
 
-        if num1 * num2 == division:
+        if num1 /num2 == division:
             print("Test case of calculator Division is passed\n\n")
 
         else:

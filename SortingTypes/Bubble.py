@@ -35,7 +35,7 @@ class BubbleSort:
                     samplelist[inner], samplelist[inner + 1] = samplelist[inner + 1], samplelist[
                         inner]  # swapping two element
 
-        print(' All values bubble sorted successfully =>', samplelist)  # printing the sorted list
+        print('All values bubble sorted successfully =>', samplelist)  # printing the sorted list
     pass
 
 

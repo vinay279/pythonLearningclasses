@@ -96,7 +96,7 @@ class SortingAutomation:
 
     # checking insertion sort
     def checkingInsertionSort(self):
-        print("****Test case for Insertion Bubble Sort****")
+        print("****Test case for Insertion  Sort****")
         self.clearlist()
         self.inserting()
         sample2 = self.elements

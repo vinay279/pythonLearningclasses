@@ -90,7 +90,7 @@ class AutomateStack:
         try:
             self.stack.pop(0)
         except IndexError:
-            print("list is empty you cannot pop value")
+            print("stack is empty you cannot pop value")
 
 
         # using function

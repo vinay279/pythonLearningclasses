@@ -44,7 +44,7 @@ class Radix:
             self.digitcounting(arr, exp)
             exp *= 10
 
-        print(" This is the radix sorted list ", arr)
+        print("This is the radix sorted list ", arr)
 
     def digitcounting(self, arr, exp1):
 
