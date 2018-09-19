@@ -12,7 +12,7 @@ from MatrixOperation.MatrixCreation import CreateNullMAtrix as M
 class IdentityMatrix:
 
     def identityMatrix(self):
-
+        if len(M.Matrix) == len(M.Matrix[0]):
             for row in range(0, len(M.Matrix)):
                 for col in range(0, len(M.Matrix[0])):
                     if row == col:

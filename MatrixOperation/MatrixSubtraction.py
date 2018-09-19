@@ -1,5 +1,5 @@
 ''' class for the matrix addition '''
-from MatrixOperation.
+import MatrixOperation
 class MatrixSubtraction:
     def matrixSubtraction(self):
         Matrix1 = self.enterMatrix()

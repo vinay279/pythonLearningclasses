@@ -1,5 +1,5 @@
 ''' class for the matrix addition '''
-
+from
 class MatrixOperations:
     # method for Accepting user input in matrix
     def enterMatrix(self):
@@ -22,19 +22,6 @@ class MatrixOperations:
         print("\n")
         return Matrix
 
-
-
-    def matout(self, Matrix1):
-        print(' Matrix Output')
-        result = []
-        for resultrows in range(0, Matrix1):
-            result.append([])
-
-        for row in range(0, Matrix1):
-            for col in range(0, Matrix1):
-                result[row].append(col)
-                result[row][col] = 0
-        return result[row][col]
 
     def matrixAddition(self):
         Matrix1 = self.enterMatrix()
@@ -65,7 +52,8 @@ class MatrixOperations:
             print("Matrix Subtraction is performed")
             Matrix1.clear()
 
-
+    def MatrixMultiplication(self):
+        matrix
 
 q = MatrixOperations()
 q.matrixSubtraction()
