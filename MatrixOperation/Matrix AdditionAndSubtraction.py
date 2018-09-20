@@ -1,5 +1,5 @@
 ''' class for the matrix addition '''
-from
+
 class MatrixOperations:
     # method for Accepting user input in matrix
     def enterMatrix(self):
@@ -52,8 +52,7 @@ class MatrixOperations:
             print("Matrix Subtraction is performed")
             Matrix1.clear()
 
-    def MatrixMultiplication(self):
-        matrix
+
 
 q = MatrixOperations()
 q.matrixSubtraction()
