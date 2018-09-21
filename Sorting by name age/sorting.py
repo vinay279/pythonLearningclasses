@@ -13,11 +13,37 @@ Json,21,85
 Then, the output of the program should be:
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]'''
 
-class SortingDemo:
+class SortNameAgeScore:
     while True:
-        Array = []
-        for colmns in range(3):
-            Array.append([])
-            name = input()
-            age = input()
+
+
+        infos = int(input("how many student data you want to enter "))
+        print("Enter The Student Information")
+        infoList = []
+        for info in range(0, infos):
+            infoList.append([])
+
+        for row in range(0, infos):
+            for col in range(0,3):
+                infoList[row].append(col)
+
+                if col == 0:
+                    infoList[row][col] = input("Enter Name of student").format
+
+                if col == 1:
+                    infoList[row][col] = int(input("Enter Age student").format())
+                if col == 2:
+                    infoList[row][col] = int(input("Enter Score"))
+                print('\n')
+
+        for name in range(0, infos):
+            infoList[row][name]
+        print(infoList)
+
+
+
+
+
+
+
 

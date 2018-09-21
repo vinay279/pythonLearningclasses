@@ -17,10 +17,12 @@ class CheckPasswordValidation:
         for char in input:
             if char in upperCharList:
                 upperChars += 1
-        if upperChars > 0:
-            return True
-        else:
-            return False
+                if upperChars > 0:
+                    return True
+                break
+            else:
+                return False
+
 
     def checkLowerChar(self,input):
         lowerChars = 0
@@ -62,22 +64,20 @@ class CheckPasswordValidation:
             return False
 
     def checkValidPassword(self):
-
-        inputPassword = input("Enter Password Separated by comma =")
-        passwordlist = inputPassword.split(",")
-        validPasswords = []
-        for password in passwordlist:
-            if (self.checkUpperChar(password) and self.checkLowerChar(password) and self.checkDigit(password) and
-                self.checkspecialchar(password) and self.checkLength(password)) is True:
-                validPasswords.append(password)
-        print("The valid Password From the List You Entered =", validPasswords)
+        while True:
+            inputPassword = input("Enter Password Separated by comma\n"
+                                  "**Password should contains \n"
+                                  "At least one Lower Alphabet\n"
+                                  "At least one Upper Alphabet\n"
+                                  "At least one digit from (0to9)\n"
+                                  "At least one special char (# or @ or $)")
+            passwordList = inputPassword.split(",")
+            validPasswords = []
+            for password in passwordList:
+                if (self.checkUpperChar(password) and self.checkLowerChar(password) and self.checkDigit(password) and
+                    self.checkspecialchar(password) and self.checkLength(password)) is True:
+                    validPasswords.append(password)
+            print("The valid Password From the List You Entered =", validPasswords)
 
 d = CheckPasswordValidation()
 d.checkValidPassword()
-
-
-
-
-
-
-
