@@ -9,7 +9,7 @@ class AutomateStack:
 
     def comparebeforeSize(self, size1, size2):
         if size1 == size2:
-            print('Test For Size Of Stack is Passed\n')
+            print('Test For Size before operation Of Stack is Passed\n')
         else:
             print("Test case of check size Before  Failed\n")
 

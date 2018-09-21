@@ -168,10 +168,10 @@ class MatrixOperations:
         for row in range(0, len(Mat)):
             for col in range(0, len(Mat[0])):
                 if row <= col:
-                    Mat[row][col] = int(input("Enter the values you want enter in the Lower triangular Matrix "))
+                    Mat[row][col] = int(input("Enter the value in Lower triangular Matrix "))
                 else:
                     Mat[row][col] = 0
-        print("Lower Triangular Matrix  :")
+        print("Lower Triangular Matrix Output :")
         self.printValuesfromMat(Mat)
 
     def upperTriangularMat(self):
@@ -179,7 +179,7 @@ class MatrixOperations:
         for row in range(0, len(Matrix)):
             for col in range(0, len(Matrix[0])):
                 if row <= col:
-                    Matrix[row][col] = int(input("Enter the values you want enter in the Upper triangular Matrix "))
+                    Matrix[row][col] = int(input("Enter the value in Upper triangular Matrix "))
                 else:
                     Matrix[row][col] = 0
         print("Upper Triangular Matrix Output is :")
