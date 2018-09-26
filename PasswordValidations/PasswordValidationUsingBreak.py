@@ -9,38 +9,39 @@ Following are the criteria for checking the password:
 6. Maximum length of transaction password: 12
 Your program should accept a sequence of comma separated passwords and
 ill check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.'''
-class CheckPasswordValidation:
-    def checkUpperChar(self,input):
+class CheckPasswordValidationUsingBreak:
+    def checkUpperChar(self, input):
         uppers = 0
         upper_list = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z".split()
         for char in input:
             if char in upper_list:
+                print("only One comparision takes place after that loop break", char)
                 uppers += 1
-
+                break
         if uppers > 0:
             return True
         else:
             return False
 
-    def checkLowerChar(self,input):
+    def checkLowerChar(self, input):
         lowers = 0
         lower_list = "a b c d e f g h i j k l m n o p q r s t u v w x y z".split()
         for char in input:
             if char in lower_list:
                 lowers += 1
-
+                break
         if lowers > 0:
             return True
         else:
             return False
 
-    def checkDigit(self,input):
+    def checkDigit(self, input):
         numbers = 0
         number_list = "1 2 3 4 5 6 7 8 9 0".split()
         for char in input:
             if char in number_list:
                 numbers += 1
-
+                break
         if numbers > 0:
             return True
         else:
@@ -57,7 +58,7 @@ class CheckPasswordValidation:
         else:
             return False
 
-    def checkLength(self,input):
+    def checkLength(self, input):
         if 6 <= len(input) <= 12:
             return True
         else:
@@ -79,5 +80,5 @@ class CheckPasswordValidation:
                 validPasswords.append(password)
         print(validPasswords)
 
-d = CheckPasswordValidation()
+d = CheckPasswordValidationUsingBreak()
 d.checkValidPassword()

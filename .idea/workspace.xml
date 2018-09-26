@@ -4,8 +4,10 @@
     <list default="true" id="e805109d-6505-49f5-b59f-533c0a11253a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PasswordValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordValidations/PasswordValidation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting by name age/sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting by name age/sorting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordValidations/PasswordValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordValidations/PasswordValidation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordValidations/UsingAscii.py" beforeDir="false" afterPath="$PROJECT_DIR$/PasswordValidations/UsingAscii.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PasswordValidations/tet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting by name age/sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting by name age/SortingByNameAgeScore.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +22,7 @@
     <session id="135898302">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -29,7 +31,7 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.22" value="4" />
           <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
@@ -38,14 +40,14 @@
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="livepython" value="1" />
-          <entry key="py" value="256" />
+          <entry key="py" value="257" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="7" />
           <entry key="xml" value="3" />
@@ -54,7 +56,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="256" />
+          <entry key="Python" value="257" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -62,16 +64,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="43" />
-          <entry key="dummy" value="97" />
-          <entry key="py" value="56376" />
+          <entry key="dummy" value="117" />
+          <entry key="py" value="56827" />
           <entry key="txt" value="111" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="208" />
-          <entry key="Python" value="56419" />
+          <entry key="PLAIN_TEXT" value="228" />
+          <entry key="Python" value="56870" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -90,41 +92,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PasswordValidations/PasswordValidation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PasswordValidations/UsingAscii.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="70" column="70" lean-forward="true" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
+            <state relative-caret-position="289">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
-                <marker date="1537523973189" expanded="true" signature="0:2904" ph="..." />
+                <marker date="1537945096670" expanded="true" signature="1121:1424" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PasswordValidations/tet.py">
+        <entry file="file://$PROJECT_DIR$/Sorting by name age/SortingByNameAgeScore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="56" lean-forward="true" selection-start-line="1" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sorting by name age/sorting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="102">
+              <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -179,7 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sorting/radix sort.py" />
         <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
         <option value="$PROJECT_DIR$/PythonLearningPractice/PythonClasses/LinkList.py" />
         <option value="$PROJECT_DIR$/LinklistExamples/SingleLinklist.py" />
@@ -226,10 +209,11 @@
         <option value="$PROJECT_DIR$/AutomationPython/AutomateStack.py" />
         <option value="$PROJECT_DIR$/SortingTypes/Sorting.py" />
         <option value="$PROJECT_DIR$/PasswordValidation.py" />
-        <option value="$PROJECT_DIR$/PasswordValidations/tet.py" />
-        <option value="$PROJECT_DIR$/PasswordValidations/PasswordValidation.py" />
-        <option value="$PROJECT_DIR$/PasswordValidations/UsingAscii.py" />
         <option value="$PROJECT_DIR$/Sorting by name age/sorting.py" />
+        <option value="$PROJECT_DIR$/PasswordValidations/PasswordValidation.py" />
+        <option value="$PROJECT_DIR$/PasswordValidations/PasswordValidationUsingBreak.py" />
+        <option value="$PROJECT_DIR$/PasswordValidations/tet.py" />
+        <option value="$PROJECT_DIR$/PasswordValidations/UsingAscii.py" />
       </list>
     </option>
   </component>
@@ -256,32 +240,12 @@
             <path>
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="AutomationPython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="FileIO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="MatrixOperation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
               <item name="PasswordValidations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
               <item name="Sorting by name age" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="SortingTypes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
@@ -345,28 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sorting">
-    <configuration name="CallMatrixOperation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonLearningclasses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MatrixOperation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MatrixOperation/CallMatrixOperation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.UsingAscii">
     <configuration name="ClassCalculator" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -388,7 +331,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PasswordValidation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PasswordValidation (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -396,11 +339,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PasswordValidations" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\pythonLearningclasses\PasswordValidations\PasswordValidation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PasswordValidations/PasswordValidation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PasswordValidationUsingBreak" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonLearningclasses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PasswordValidations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PasswordValidations/PasswordValidationUsingBreak.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -442,7 +406,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorting by name age/sorting.py" />
+      <option name="SCRIPT_NAME" value="D:\pythonLearningclasses\Sorting by name age\SortingByNameAgeScore.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -474,19 +438,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.ClassCalculator" />
-      <item itemvalue="Python.CallMatrixOperation" />
-      <item itemvalue="Python.PasswordValidation" />
       <item itemvalue="Python.sorting" />
       <item itemvalue="Python.tet" />
       <item itemvalue="Python.UsingAscii" />
+      <item itemvalue="Python.PasswordValidationUsingBreak" />
+      <item itemvalue="Python.PasswordValidation (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sorting" />
         <item itemvalue="Python.UsingAscii" />
         <item itemvalue="Python.tet" />
-        <item itemvalue="Python.PasswordValidation" />
-        <item itemvalue="Python.CallMatrixOperation" />
+        <item itemvalue="Python.PasswordValidationUsingBreak" />
+        <item itemvalue="Python.PasswordValidation (1)" />
+        <item itemvalue="Python.sorting" />
       </list>
     </recent_temporary>
   </component>
@@ -542,6 +506,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.15226555" />
+      <window_info id="Structure" order="1" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
+      <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48524764" visible="true" weight="0.28308025" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4963119" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49894625" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49789253" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.32968238" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5147524" side_tool="true" weight="0.3470716" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.581138" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -577,9 +560,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="new code changes and packaging is done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FileIO/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Calculator/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -841,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PasswordValidations/PasswordValidation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/950792253/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -862,6 +835,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordValidations/PasswordValidation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordValidations/PasswordValidationUsingBreak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting by name age/SortingByNameAgeScore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MatrixOperation/AllMatrixOperations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -872,24 +866,17 @@
     <entry file="file://$PROJECT_DIR$/PasswordValidations/tet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="56" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PasswordValidations/UsingAscii.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="70" column="70" lean-forward="true" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
           <folding>
-            <marker date="1537523973189" expanded="true" signature="0:2904" ph="..." />
+            <marker date="1537945096670" expanded="true" signature="1121:1424" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting by name age/sorting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
