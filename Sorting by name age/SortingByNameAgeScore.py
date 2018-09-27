@@ -14,36 +14,75 @@ Then, the output of the program should be:
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]'''
 
 class SortNameAgeScore:
-    while True:
+    studentData = []
+
+    def takeStudentData(self):
+        NumberOfStudent = int(input("Enter Number of Student ="))
+
+        for rowsInMatrix in range(0, NumberOfStudent):
+            self.studentData.append([])
+
+        for row in range(0, NumberOfStudent):
+            Data = input('Enter student Data like(EX - tom,19,80 ) = ')  # 'Tom,19,80'
+            Data.casefold()
+            tpl = tuple(Data.split(','))
+            self.studentData[row] = tpl
+
+        print('Unsorted List Of Students', self.studentData)
+        return self.studentData
+
+    def Sort(self, sortIndex):
+
+        length = len(self.studentData)
+        for outer in range(0, length):  # for tracing the list from start to end
+            for inner in range(0, length - 1 - outer):  # it will skip the last element which is already sorted
+
+                if sortIndex == 0:
+                    firstElement = str(self.studentData[inner][sortIndex])
+                    secondElement = str(self.studentData[inner+1][sortIndex])
+
+                    if firstElement > secondElement:  # comparing two elements
+                        self.studentData[inner], self.studentData[inner + 1] = self.studentData[inner + 1], self.studentData[inner]  # swapping two element
+
+                elif sortIndex == 1 or 2:
+                    firstElement = int(self.studentData[inner][sortIndex])
+                    secondElement = int(self.studentData[inner + 1][sortIndex])
+
+                    if firstElement > secondElement:  # comparing two elements
+                        self.studentData[inner], self.studentData[inner + 1] = self.studentData[inner + 1], self.studentData[inner]
+
+                    elif firstElement == secondElement:
+                        firstElement = str(self.studentData[inner][0])
+                        secondElement = str(self.studentData[inner + 1][0])
+                        firstElement.lower()
+                        secondElement.lower()
+
+                        if firstElement > secondElement:  # comparing two elements
+                            self.studentData[inner], self.studentData[inner + 1] = self.studentData[inner + 1],self.studentData[inner]
 
 
-        infos = int(input("how many student data you want to enter "))
-        print("Enter The Student Information")
-        infoList = []
-        for info in range(0, infos):
-            infoList.append([])
+        print('Sorted List Of Students', self.studentData)
 
-        for row in range(0, infos):
-            for col in range(0,3):
-                infoList[row].append(col)
+    def callSort(self):
+        while True:
+            print('Select From The Options Of Sorting')
+            print("1.Sort by Name\n"
+                  "2.Sort By Age\n"
+                  "3.Sort By Score\n"
+                  "4.exit")
+            sortIndex = int(input("Enter Number"))
+            if sortIndex == 1:
+                self.Sort(0)
+                print('Sorted List Of Students By Using Name\n')
+            elif sortIndex == 2:
+                self.Sort(1)
+                print('Sorted List Of Students By Using Age\n')
+            elif sortIndex == 3:
+                self.Sort(2)
+                print('Sorted List Of Students By Using Score\n')
+            elif sortIndex == 4:
+                break
 
-                if col == 0:
-                    infoList[row][col] = input("Enter Name of student").format
-
-                if col == 1:
-                    infoList[row][col] = int(input("Enter Age student").format())
-                if col == 2:
-                    infoList[row][col] = int(input("Enter Score"))
-                print('\n')
-
-        for name in range(0, infos):
-            infoList[row][name]
-        print(infoList)
-
-
-
-
-
-
-
-
+f = SortNameAgeScore()
+f.takeStudentData()
+f.callSort()

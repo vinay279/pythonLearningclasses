@@ -14,10 +14,9 @@
 class PasswordValidationUsingAscii:
     def checkupperChar(self, input):
         uppers = 0
-        upperCharList = [int(upper) for upper in range(65, 91)]
         for char in input:
             letter = ord(char)
-            if letter in upperCharList:
+            if 65 <= letter <= 90:
                 uppers += 1
                 break
         if uppers > 0:
@@ -27,10 +26,9 @@ class PasswordValidationUsingAscii:
 
     def checkLowerChar(self, input):
         lower = 0
-        lowerCharList = [int(lower) for lower in range(97, 123)]
         for char in input:
             letter = ord(char)
-            if letter in lowerCharList:
+            if 97 <= letter <= 122:
                 lower += 1
                 break
         if lower > 0:
@@ -44,6 +42,7 @@ class PasswordValidationUsingAscii:
         for char in input:
             if char in digits:
                 numbers += 1
+                break
         if numbers > 0:
             return True
         else:
@@ -55,6 +54,7 @@ class PasswordValidationUsingAscii:
         for char in input:
             if char in specialCharList:
                 specialChars += 1
+                break
         if specialChars > 0:
             return True
         else:
