@@ -40,6 +40,8 @@ class SortNameAgeScore:
                 if sortIndex == 0:
                     firstElement = str(self.studentData[inner][sortIndex])
                     secondElement = str(self.studentData[inner+1][sortIndex])
+                    firstElement.casefold()
+                    secondElement.casefold()
 
                     if firstElement > secondElement:  # comparing two elements
                         self.studentData[inner], self.studentData[inner + 1] = self.studentData[inner + 1], self.studentData[inner]  # swapping two element
@@ -65,6 +67,7 @@ class SortNameAgeScore:
 
     def callSort(self):
         while True:
+            print(' The sorting Gives priority to capital Alphabet first And then small Letters')
             print('Select From The Options Of Sorting')
             print("1.Sort by Name\n"
                   "2.Sort By Age\n"
