@@ -17,5 +17,5 @@ class BinaryTree:
 
 
     def getNode(self):
-
+       w=0
 

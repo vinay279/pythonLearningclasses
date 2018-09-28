@@ -13,9 +13,12 @@ Json,21,85
 Then, the output of the program should be:
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]'''
 
+
 class SortNameAgeScore:
     studentData = []
 
+
+    # For getting student data
     def takeStudentData(self):
         NumberOfStudent = int(input("Enter Number of Student ="))
 
@@ -23,45 +26,35 @@ class SortNameAgeScore:
             self.studentData.append([])
 
         for row in range(0, NumberOfStudent):
-            Data = input('Enter student Data like(EX - tom,19,80 ) = ')  # 'Tom,19,80'
-            Data.casefold()
+            Data = input('Enter student Data like(EX - tom,19,80 ) = ').lower()  # 'Tom,19,80'
             tpl = tuple(Data.split(','))
             self.studentData[row] = tpl
 
         print('Unsorted List Of Students', self.studentData)
         return self.studentData
 
+    def swap(self, firstElement, secondElement, inner):
+        if firstElement > secondElement:  # comparing two elements
+            self.studentData[inner], self.studentData[inner + 1] = self.studentData[inner + 1], self.studentData[inner]
+
     def Sort(self, sortIndex):
 
         length = len(self.studentData)
         for outer in range(0, length):  # for tracing the list from start to end
             for inner in range(0, length - 1 - outer):  # it will skip the last element which is already sorted
-
+                # Sorting Student data by Name
                 if sortIndex == 0:
                     firstElement = str(self.studentData[inner][sortIndex])
-                    secondElement = str(self.studentData[inner+1][sortIndex])
-                    firstElement.casefold()
-                    secondElement.casefold()
-
-                    if firstElement > secondElement:  # comparing two elements
-                        self.studentData[inner], self.studentData[inner + 1] = self.studentData[inner + 1], self.studentData[inner]  # swapping two element
+                    secondElement = str(self.studentData[inner + 1][sortIndex])
+                    self.swap(firstElement, secondElement, inner)
 
                 elif sortIndex == 1 or 2:
                     firstElement = int(self.studentData[inner][sortIndex])
                     secondElement = int(self.studentData[inner + 1][sortIndex])
-
-                    if firstElement > secondElement:  # comparing two elements
-                        self.studentData[inner], self.studentData[inner + 1] = self.studentData[inner + 1], self.studentData[inner]
-
-                    elif firstElement == secondElement:
-                        firstElement = str(self.studentData[inner][0])
-                        secondElement = str(self.studentData[inner + 1][0])
-                        firstElement.lower()
-                        secondElement.lower()
-
-                        if firstElement > secondElement:  # comparing two elements
-                            self.studentData[inner], self.studentData[inner + 1] = self.studentData[inner + 1],self.studentData[inner]
-
+                    self.swap(firstElement, secondElement, inner)
+                    # if age and score are equal then sort according to name first
+                    if firstElement == secondElement:
+                        self.swap(firstElement, secondElement, inner)
 
         print('Sorted List Of Students', self.studentData)
 
@@ -76,16 +69,15 @@ class SortNameAgeScore:
             sortIndex = int(input("Enter Number"))
             if sortIndex == 1:
                 self.Sort(0)
-                print('Sorted List Of Students By Using Name\n')
+                print('Students data is Sorted By Using Name\n')
             elif sortIndex == 2:
                 self.Sort(1)
-                print('Sorted List Of Students By Using Age\n')
+                print('Students data is Sorted By Using Age\n')
             elif sortIndex == 3:
                 self.Sort(2)
-                print('Sorted List Of Students By Using Score\n')
+                print('Students data is Sorted By Using Score\n')
             elif sortIndex == 4:
                 break
 
-f = SortNameAgeScore()
-f.takeStudentData()
-f.callSort()
+
+
