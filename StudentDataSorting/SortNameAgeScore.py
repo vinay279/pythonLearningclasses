@@ -13,7 +13,8 @@ Json,21,85
 Then, the output of the program should be:
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]'''
 
-
+from random import choice, randint
+from string import  *
 class SortNameAgeScore:
     studentData = []
 
@@ -79,5 +80,32 @@ class SortNameAgeScore:
             elif sortIndex == 4:
                 break
 
+    def takeStudentDataUsingAutomation(self):
+        NumberOfStudent = int(input("Enter Number of Student ="))
+        for rowsInMatrix in range(0, NumberOfStudent):
+            self.studentData.append([])
+
+        for row in range(0, NumberOfStudent):
+            name = ''.join(choice(ascii_lowercase) for i in range(3))
+            Age = randint(1, 99)
+            Score = randint(22, 99)
+            tpl = [name, Age, Score]
+            self.studentData[row] = tpl
+        print('Unsorted List Of Students', self.studentData)
+        return self.studentData
 
 
+    def callAutomation(self):
+        print('Student data Sorting using Name')
+        self.Sort(0)
+        print('\n')
+        print("Student data Sorting using Age")
+        self.Sort(1)
+        print('\n')
+        print("Student data Sorting using Score")
+        self.Sort(2)
+        print('\n')
+
+c= SortNameAgeScore()
+c.takeStudentDataUsingAutomation()
+c.callAutomation()

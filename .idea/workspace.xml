@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e805109d-6505-49f5-b59f-533c0a11253a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/BinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/BinaryTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalenderOperations/FindingNextLeapYears.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalenderOperations/FindingNextLeapYears.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting by name age/SortingByNameAgeScore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting by name age/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestPaython/TestStudentDataSorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestPaython/TestStudentDataSorting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +19,7 @@
     <session id="135898302">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -30,7 +27,7 @@
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="4" />
           <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.3" value="1" />
@@ -40,14 +37,14 @@
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="34" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="livepython" value="1" />
-          <entry key="py" value="287" />
+          <entry key="py" value="288" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="7" />
           <entry key="xml" value="3" />
@@ -56,7 +53,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="287" />
+          <entry key="Python" value="288" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -65,7 +62,7 @@
         <counts>
           <entry key="Python Console" value="43" />
           <entry key="dummy" value="117" />
-          <entry key="py" value="61272" />
+          <entry key="py" value="62236" />
           <entry key="txt" value="111" />
           <entry key="xml" value="6" />
         </counts>
@@ -73,7 +70,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="228" />
-          <entry key="Python" value="61315" />
+          <entry key="Python" value="62279" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -95,12 +92,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestPaython/TestStudentDataSorting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state>
+              <caret selection-end-line="1" selection-end-column="21" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
-                <marker date="1538140637283" expanded="true" signature="272:285" ph="..." />
-                <marker date="1538140637283" expanded="true" signature="472:481" ph="..." />
+                <marker date="1538378385547" expanded="true" signature="186:194" ph="..." />
               </folding>
             </state>
           </provider>
@@ -109,10 +105,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="528">
+              <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
               <folding>
-                <marker date="1538140095873" expanded="true" signature="634:639" ph="..." />
+                <element signature="e#587#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,12 +204,12 @@
         <option value="$PROJECT_DIR$/Sorting by name age/SortingByNameAgeScore.py" />
         <option value="$PROJECT_DIR$/CalenderOperations/FindingNextLeapYears.py" />
         <option value="$PROJECT_DIR$/StudentDataSorting.py" />
-        <option value="$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py" />
         <option value="$PROJECT_DIR$/TestPaython/TestStudentDataSorting.py" />
+        <option value="$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="527" />
@@ -226,27 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentDataSorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
-              <item name="TestPaython" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Changed Files'; set:Changed Files; ALL; class com.intellij.packageDependencies.ChangeListScope">
           <expand>
@@ -267,6 +242,27 @@
             <path>
               <item name="pythonLearningclasses" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentDataSorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="TestPaython" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TestStudentDataSorting">
+  <component name="RunManager" selected="Python.SortNameAgeScore">
     <configuration name="ClassCalculator" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -437,8 +433,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.TestStudentDataSorting" />
         <item itemvalue="Python.SortNameAgeScore" />
+        <item itemvalue="Python.TestStudentDataSorting" />
         <item itemvalue="Python.SortingByNameAgeScore" />
         <item itemvalue="Python.FindingNextLeapYears" />
         <item itemvalue="Python.Linklist_1" />
@@ -723,13 +719,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PasswordValidations/tet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordValidations/tet.py" />
     <entry file="file://$PROJECT_DIR$/SortingTypes/Radix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -783,11 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <marker date="1538115061009" expanded="true" signature="301:302" ph="..." />
-            <marker date="1538115061009" expanded="true" signature="301:306" ph="..." />
-            <marker date="1538115061009" expanded="true" signature="427:519" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,10 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-          <folding>
-            <marker date="1538124380382" expanded="true" signature="87:88" ph="..." />
-            <marker date="1538124380382" expanded="true" signature="87:93" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,13 +797,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting by name age/TestStudentDataSorting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting by name age/TestStudentDataSorting.py" />
     <entry file="file://$PROJECT_DIR$/TestPaython/PythonMain.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
@@ -841,11 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <marker date="1538135768322" expanded="true" signature="367:372" ph="..." />
-            <marker date="1538135768322" expanded="true" signature="416:421" ph="..." />
-            <marker date="1538135768322" expanded="true" signature="580:585" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -863,13 +833,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting by name age/SortingByNameAgeScore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sorting by name age/SortingByNameAgeScore.py" />
     <entry file="file://$PROJECT_DIR$/SortingTypes/Sorting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -877,27 +841,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StudentDataSorting.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentDataSorting.py" />
     <entry file="file://$PROJECT_DIR$/TestPaython/TestStudentDataSorting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="21" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
-            <marker date="1538140637283" expanded="true" signature="272:285" ph="..." />
-            <marker date="1538140637283" expanded="true" signature="472:481" ph="..." />
+            <marker date="1538378385547" expanded="true" signature="186:194" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="528">
+          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
           <folding>
-            <marker date="1538140095873" expanded="true" signature="634:639" ph="..." />
+            <element signature="e#587#621#0" expanded="true" />
           </folding>
         </state>
       </provider>
