@@ -21,6 +21,4 @@ class FindLeapYears:
         self.findYear(year)
 
 
-c = FindLeapYears()
-c.findNxtLeapYearsByUsingSystemYear()
-c.findLeapYearsByUserInputedYear()
+

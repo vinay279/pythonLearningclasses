@@ -57,7 +57,7 @@ class SortNameAgeScore:
                     if firstElement == secondElement:
                         self.swap(firstElement, secondElement, inner)
 
-        print('Sorted List Of Students', self.studentData)
+        print(self.studentData)
 
     def callSort(self):
         while True:
@@ -86,12 +86,13 @@ class SortNameAgeScore:
             self.studentData.append([])
 
         for row in range(0, NumberOfStudent):
-            name = ''.join(choice(ascii_lowercase) for i in range(3))
+            name = ''.join(choice(ascii_lowercase) for i in range(4))
             Age = randint(1, 99)
             Score = randint(22, 99)
             tpl = [name, Age, Score]
             self.studentData[row] = tpl
         print('Unsorted List Of Students', self.studentData)
+        print('\n')
         return self.studentData
 
 
@@ -106,6 +107,6 @@ class SortNameAgeScore:
         self.Sort(2)
         print('\n')
 
-c= SortNameAgeScore()
+c = SortNameAgeScore()
 c.takeStudentDataUsingAutomation()
 c.callAutomation()
