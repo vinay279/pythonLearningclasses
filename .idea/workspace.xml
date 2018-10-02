@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/CalenderOperations/cal.py" line="0" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e805109d-6505-49f5-b59f-533c0a11253a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CalenderOperations/Calender.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalenderOperations/Calender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalenderOperations/FindingNextLeapYears.py" beforeDir="false" afterPath="$PROJECT_DIR$/CalenderOperations/FindingNextLeapYears.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalenderOperations/cal2.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +22,7 @@
     <session id="135898302">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -30,6 +33,7 @@
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="4" />
           <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="10" />
@@ -37,14 +41,14 @@
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
           <entry key="livepython" value="1" />
-          <entry key="py" value="292" />
+          <entry key="py" value="297" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="7" />
           <entry key="xml" value="3" />
@@ -53,7 +57,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="292" />
+          <entry key="Python" value="297" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -62,7 +66,7 @@
         <counts>
           <entry key="Python Console" value="43" />
           <entry key="dummy" value="117" />
-          <entry key="py" value="63231" />
+          <entry key="py" value="64983" />
           <entry key="txt" value="111" />
           <entry key="xml" value="6" />
         </counts>
@@ -70,7 +74,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="228" />
-          <entry key="Python" value="63274" />
+          <entry key="Python" value="65026" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -92,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="326">
+              <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
               <folding>
                 <element signature="e#587#621#0" expanded="true" />
               </folding>
@@ -104,25 +108,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CalenderOperations/Calender.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            <state relative-caret-position="275">
+              <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
               <folding>
-                <marker date="1538399756690" expanded="true" signature="340:341" ph="..." />
-                <marker date="1538399756690" expanded="true" signature="340:345" ph="..." />
-                <marker date="1538399756690" expanded="true" signature="1092:1237" ph="..." />
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1538482170374" expanded="true" signature="344:345" ph="..." />
+                <marker date="1538482170374" expanded="true" signature="344:349" ph="..." />
+                <marker date="1538482170374" expanded="true" signature="1640:1649" ph="..." />
+                <marker date="1538482170374" expanded="true" signature="1640:1727" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CalenderOperations/cal2.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalenderOperations/cal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+            <state relative-caret-position="34">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding>
-                <marker date="1538401881978" expanded="true" signature="67:68" ph="..." />
+                <marker date="1538485926060" expanded="true" signature="1197:1674" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3712">
+              <caret line="919" column="8" selection-start-line="919" selection-start-column="8" selection-end-line="919" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/calendar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1907">
+              <caret line="629" selection-start-line="629" selection-end-line="629" />
             </state>
           </provider>
         </entry>
@@ -137,15 +161,6 @@
                 <marker date="1538383524856" expanded="true" signature="416:421" ph="..." />
                 <marker date="1538383524856" expanded="true" signature="580:585" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MatrixOperation/AllMatrixOperations.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -191,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SortingTypes/Quick.py" />
         <option value="$PROJECT_DIR$/TestPaython/PythonMain.py" />
         <option value="$PROJECT_DIR$/TestCalculator/TestCalculator.py" />
         <option value="$PROJECT_DIR$/AutomationTest/TestCalculator.py" />
@@ -240,15 +254,16 @@
         <option value="$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py" />
         <option value="$PROJECT_DIR$/CalenderOperations/FindingNextLeapYears.py" />
         <option value="$PROJECT_DIR$/MatrixOperation/AllMatrixOperations.py" />
-        <option value="$PROJECT_DIR$/CalenderOperations/Calender.py" />
         <option value="$PROJECT_DIR$/CalenderOperations/cal2.py" />
+        <option value="$PROJECT_DIR$/CalenderOperations/Calender.py" />
+        <option value="$PROJECT_DIR$/CalenderOperations/cal.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="527" />
+    <option name="width" value="1461" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -298,6 +313,11 @@
             <path>
               <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
+              <item name="PasswordValidations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonLearningclasses" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonLearningclasses" type="462c0819:PsiDirectoryNode" />
               <item name="StudentDataSorting" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -337,7 +357,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cal2">
+  <component name="RunManager" selected="Python.Calender">
     <configuration name="Calender" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -372,27 +392,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="D:\pythonLearningclasses\PythonLearningPractice\PythonClasses\Calculator.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="FindingNextLeapYears" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonLearningclasses" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CalenderOperations" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalenderOperations/FindingNextLeapYears.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -464,6 +463,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="cal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonLearningclasses" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CalenderOperations" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CalenderOperations/cal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="cal2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonLearningclasses" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -489,18 +509,18 @@
       <item itemvalue="Python.Calender" />
       <item itemvalue="Python.ClassCalculator" />
       <item itemvalue="Python.SortingByNameAgeScore" />
-      <item itemvalue="Python.FindingNextLeapYears" />
       <item itemvalue="Python.TestStudentDataSorting" />
       <item itemvalue="Python.SortNameAgeScore" />
       <item itemvalue="Python.cal2" />
+      <item itemvalue="Python.cal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cal2" />
         <item itemvalue="Python.SortNameAgeScore" />
+        <item itemvalue="Python.cal" />
+        <item itemvalue="Python.cal2" />
         <item itemvalue="Python.TestStudentDataSorting" />
         <item itemvalue="Python.SortingByNameAgeScore" />
-        <item itemvalue="Python.FindingNextLeapYears" />
       </list>
     </recent_temporary>
   </component>
@@ -535,7 +555,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49838188" visible="true" weight="0.15226555" />
@@ -543,7 +563,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50161815" side_tool="true" weight="0.16491044" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48524764" visible="true" weight="0.28308025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48524764" visible="true" weight="0.4284165" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4963119" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -610,20 +630,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="new code changes and packaging is done" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="750" selection-start-line="750" selection-end-line="750" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SortingTypes/Merge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -831,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="919" column="8" selection-start-line="919" selection-start-column="8" selection-end-line="919" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/950792253/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -887,39 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288">
           <caret selection-end-line="1" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1538378385547" expanded="true" signature="186:194" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#587#621#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MatrixOperation/AllMatrixOperations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CalenderOperations/Calender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <marker date="1538399756690" expanded="true" signature="340:341" ph="..." />
-            <marker date="1538399756690" expanded="true" signature="340:345" ph="..." />
-            <marker date="1538399756690" expanded="true" signature="1092:1237" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -935,13 +901,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MatrixOperation/AllMatrixOperations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CalenderOperations/cal2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+        <state relative-caret-position="738">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StudentDataSorting/SortNameAgeScore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="54" column="65" lean-forward="true" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
           <folding>
-            <marker date="1538401881978" expanded="true" signature="67:68" ph="..." />
+            <element signature="e#587#621#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/datetime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3712">
+          <caret line="919" column="8" selection-start-line="919" selection-start-column="8" selection-end-line="919" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalenderOperations/Calender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1538482170374" expanded="true" signature="344:345" ph="..." />
+            <marker date="1538482170374" expanded="true" signature="344:349" ph="..." />
+            <marker date="1538482170374" expanded="true" signature="1640:1649" ph="..." />
+            <marker date="1538482170374" expanded="true" signature="1640:1727" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalenderOperations/cal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <marker date="1538485926060" expanded="true" signature="1197:1674" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/calendar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1907">
+          <caret line="629" selection-start-line="629" selection-end-line="629" />
         </state>
       </provider>
     </entry>
