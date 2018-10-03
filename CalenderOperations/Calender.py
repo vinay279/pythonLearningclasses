@@ -27,11 +27,9 @@ class Calender:
                     if row == 0:
                         self.monthCal[0][col] = self.Day[col]
                     elif row != 0:
-                        date =0
-                        date +=1
-                        self.monthCal[row][col] = date+1
+                        for i in range(self.daysInMonths[0]):
 
-
+                            self.monthCal[row][col] = i-1
 
         for val in self.monthCal:
             print(val)
@@ -56,17 +54,9 @@ class Calender:
     def find1stDayOfYear(self,dayOfWeekInNo):
         dayOfWeekInNo = 0
 
-        if dayOfWeekInNo == 1:
-            self.ssss
 
 
-    def findADay(self,date,month,year):
-        date = 0
-        month = 0
-        year = 0
-        N = date + (2 * month) + (3 * (month + 1) // 5) + (year + (year / 4) - (year / 100) )+ (year / 400) + 2
-        Day = N % 7
-        print(Day)
+
 
 
 
