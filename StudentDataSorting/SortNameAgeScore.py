@@ -12,7 +12,11 @@ Json,21,85
 
 Then, the output of the program should be:
 [('John', '20', '90'), ('Jony', '17', '91'), ('Jony', '17', '93'), ('Json', '21', '85'), ('Tom', '19', '80')]'''
+import time
+import sys
 
+
+from SortingTypes.Quick import QuickS
 from random import choice, randint
 from string import  *
 class SortNameAgeScore:
@@ -95,10 +99,19 @@ class SortNameAgeScore:
         print('\n')
         return self.studentData
 
+    def sortUsingAutomation(self):
+        # sorting using Automation
+        NameData = []
+        for data in range(0, len(self.studentData)):
+
+            NameData.append(self.studentData[data][0])
+
+
 
     def callAutomation(self):
         print('Student data Sorting using Name')
         self.Sort(0)
+
         print('\n')
         print("Student data Sorting using Age")
         self.Sort(1)
@@ -106,6 +119,8 @@ class SortNameAgeScore:
         print("Student data Sorting using Score")
         self.Sort(2)
         print('\n')
+
+
 
 c = SortNameAgeScore()
 c.takeStudentDataUsingAutomation()
