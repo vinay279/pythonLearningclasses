@@ -32,23 +32,16 @@ class Calender:
             for col in range(0, 7):
                 self.monthCal[row].append(col)
                 self.monthCal[row][col] = 0
-        a = 0
-        while a <= 31:
-            a += 1  # Same as a = a + 1
 
-            for row in range(0, 7):
-                for col in range(0, 7):
-                    if self.monthCal[0][col]:
-                        self.monthCal[0][col] = self.Day[col]
-                    else:
-                        for val in self.daysInmonts:
-                            self.monthCal[row][col] = val
+        for row in range(0, 7):
+            for col in range(0, 7):
+                if self.monthCal[0][col]:
+                    self.monthCal[0][col] = self.Day[col]
+                for val in self.daysInmonts:
+                    print(val)
+                    self.monthCal[row][col] = val
                     if row == 7 and col == 7:
                         break
-
-
-
-
 
 
         for val in self.monthCal:
