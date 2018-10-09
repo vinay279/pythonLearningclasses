@@ -15,7 +15,6 @@ Then, the output of the program should be:
 import time
 import sys
 
-
 from SortingTypes.Quick import QuickS
 from random import choice, randint
 from string import  *
@@ -43,7 +42,6 @@ class SortNameAgeScore:
             self.studentData[inner], self.studentData[inner + 1] = self.studentData[inner + 1], self.studentData[inner]
 
     def Sort(self, sortIndex):
-
         length = len(self.studentData)
         for outer in range(0, length):  # for tracing the list from start to end
             for inner in range(0, length - 1 - outer):  # it will skip the last element which is already sorted
@@ -99,12 +97,26 @@ class SortNameAgeScore:
         print('\n')
         return self.studentData
 
-    def sortUsingAutomation(self):
+    def sortUsingAutomation(self,):
         # sorting using Automation
         NameData = []
+        AgeData = []
+        ScoreData = []
         for data in range(0, len(self.studentData)):
 
             NameData.append(self.studentData[data][0])
+            AgeData.append(self.studentData[data][1])
+            ScoreData.append(self.studentData[data][2])
+
+        print(NameData)
+        print(AgeData)
+        print(ScoreData)
+        Q = QuickS()
+        Q.quickSort(NameData)
+        Q.quickSort(AgeData)
+        Q.quickSort(AgeData)
+
+        print(NameData)
 
 
 
@@ -124,4 +136,4 @@ class SortNameAgeScore:
 
 c = SortNameAgeScore()
 c.takeStudentDataUsingAutomation()
-c.callAutomation()
+c.sortUsingAutomation()

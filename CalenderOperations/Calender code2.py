@@ -1,3 +1,5 @@
+from calendar import Calendar as d
+
 calender = [('January', range(1, 31 + 1)),
             ('Feburary', range(1, 28 + 1)),
             ('March', range(1, 31 + 1)),
@@ -11,7 +13,7 @@ calender = [('January', range(1, 31 + 1)),
             ('November', range(1, 30 + 1)),
             ('December', range(1, 31 + 1))]
 
-week = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su']
+week = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
 
 def make_calendar(year, start_day):
     """
@@ -19,6 +21,7 @@ def make_calendar(year, start_day):
     """
     # Determine current starting position on calendar
     start_pos = week.index(start_day)
+    print(start_pos)
 
     # if True, adjust Feburary date range for leap year | 29 days
     if is_leap(year):
@@ -36,6 +39,7 @@ def make_calendar(year, start_day):
             # Print day
             print('{0:<3}'.format(day), end='')
             start_pos += 1
+
             if start_pos == 7:
                 # If start_pos == 7 (Sunday) start new line
                 print()
@@ -54,6 +58,8 @@ def is_leap(year):
             return True
     else:
         return False
-yr=int(input('Enter Year'))
-strtday=input('Enter start day of the year Mo,Tu,We,Th,Fr,Sa,Su')
-make_calendar(yr,strtday)
+
+
+yr = int(input('Enter Year'))
+strtday = input('Enter start day of the year Su,Mo,Tu,We,Th,Fr,Sa').capitalize()
+make_calendar(yr, strtday)
