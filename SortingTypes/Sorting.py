@@ -5,7 +5,7 @@
                 3] Insertion Sort
                 4] Quick Sort
                 5] Merge Sort
-                6] Radix Sort                           '''
+                6] Radix Sort          '''
 from SortingTypes import Merge,Radix,Insertion,Selection,Bubble,Quick
 class Sorting:
 
@@ -19,7 +19,7 @@ class Sorting:
                   "\t2.Selection Sort\n"
                   "\t3.Insertion Sort\n"
                   "\t4.Merge sort\n"
-                  "\t5.Quick Sort\n"
+                  "\t5.Quick Sort\n"            
                   "\t6.Radix Sort\n"
                   "\t7.Exit the Process ")
 

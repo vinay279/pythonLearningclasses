@@ -82,7 +82,7 @@ class SortNameAgeScore:
             elif sortIndex == 4:
                 break
 
-    def takeStudentDataUsingAutomation(self):
+    def takeStudentDataUsingAutomation(self,NumberOfStudent):
         NumberOfStudent = int(input("Enter Number of Student ="))
         for rowsInMatrix in range(0, NumberOfStudent):
             self.studentData.append([])
@@ -97,33 +97,41 @@ class SortNameAgeScore:
         print('\n')
         return self.studentData
 
-    def sortUsingAutomation(self,):
+    def sortUsingAutomation(self):
         # sorting using Automation
+
         NameData = []
         AgeData = []
         ScoreData = []
         for data in range(0, len(self.studentData)):
-
+            for i in randint(12,33):
+                sorted(i,reverse=True )
             NameData.append(self.studentData[data][0])
             AgeData.append(self.studentData[data][1])
             ScoreData.append(self.studentData[data][2])
 
-        print(NameData)
-        print(AgeData)
-        print(ScoreData)
-        Q = QuickS()
-        Q.quickSort(NameData)
-        Q.quickSort(AgeData)
-        Q.quickSort(AgeData)
+        e = 0
+        if e == 0:
+            for data in range(0, len(self.studentData)):
+                Q = QuickS()
+                Q.quickSort(NameData)
+                self.studentData[data][0] = NameData[data]
+            print("data is sorted using name",self.studentData)
 
-        print(NameData)
+        for data in range(0, len(self.studentData)):
+            Q = QuickS()
+            Q.quickSort(AgeData)
+            self.studentData[data][1] = AgeData[data]
+        for data in range(0,len(self.studentData)):
+            Q.quickSort(ScoreData)
+            self.studentData[data][2] = ScoreData[data]
 
+
+        print(self.studentData)
 
 
     def callAutomation(self):
         print('Student data Sorting using Name')
-        self.Sort(0)
-
         print('\n')
         print("Student data Sorting using Age")
         self.Sort(1)
@@ -133,7 +141,7 @@ class SortNameAgeScore:
         print('\n')
 
 
-
+NumberOfStudent = int(input("Enter Number of Student ="))
 c = SortNameAgeScore()
-c.takeStudentDataUsingAutomation()
+c.takeStudentDataUsingAutomation(NumberOfStudent)
 c.sortUsingAutomation()
