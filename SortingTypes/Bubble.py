@@ -36,6 +36,6 @@ class BubbleSort:
                         inner]  # swapping two element
 
         print('All values bubble sorted successfully =>', samplelist)  # printing the sorted list
-    pass
+
 
 

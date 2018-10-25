@@ -61,7 +61,7 @@ class Merge:
                 k = k + 1
 
                 break
-
+        print(alist)
 
 
 

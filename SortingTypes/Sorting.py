@@ -6,7 +6,12 @@
                 4] Quick Sort
                 5] Merge Sort
                 6] Radix Sort          '''
-from SortingTypes import Merge,Radix,Insertion,Selection,Bubble,Quick
+from SortingTypes.Merge import Merge
+from SortingTypes.Selection import Selection
+from SortingTypes.Bubble import BubbleSort
+from SortingTypes.Radix import Radix
+from SortingTypes.Insertion import Insertion
+from SortingTypes.Quick import QuickS
 class Sorting:
 
 
@@ -23,42 +28,43 @@ class Sorting:
                   "\t6.Radix Sort\n"
                   "\t7.Exit the Process ")
 
-            menu = int(input(print("*******Select the sorting option You want to sort*******\n")))
+            menu = int(input("*******Select the sorting option You want to sort*******\n"))
 
             # if press 1 then user will get the bubble sort output
 
             if menu == 1:
                 sample = [int(x) for x in
                           input("=>Please enter the values with spaces you want to Bubble Sort   :").split()]
-                Bubble.BubbleSort.BubbleSort(sample) # calling bubble Sort method
+                B = BubbleSort()
+                B.BubbleSort(sample) # calling bubble Sort method
 
             elif menu == 2:
                 sample = [int(x) for x in
                           input(" =>Please enter the values with spaces you want to Selection Sort :  ").split()]
-
-                self.selectionSort(sample)  # calling Selection sort method
+                S = Selection()
+                S.selectionSort(sample)  # calling Selection sort method
 
             elif menu == 3:
                 sample = [int(x) for x in
                           input("=>Please enter the values with spaces you want to Insertion Sort :").split()]
-
-                self.insertionSort(sample)  # Calling insertion sort method
+                Iw = Insertion()
+                Iw.insertionSort(sample)  # Calling insertion sort method
 
             elif menu == 4:
                 sample = [int(x) for x in
                           input("=>Please enter the values with spaces you want to Merge Sort :").split()]
-
-                self.mergesort(sample)  # Calling insertion sort method
+                M = Merge()
+                M.mergesort(sample)  # Calling insertion sort method
 
             elif menu == 5:
                 sample = [int(x) for x in input("=>Please enter the values with spaces you want to Sort :").split()]
-
-                self.quickSort(sample)  # Calling Quick sort method
+                Q = QuickS()
+                Q.quickSort(sample)  # Calling Quick sort method
 
             elif menu == 6:
                 sample = [int(x) for x in input("=>Please enter the values with spaces you want to Sort :").split()]
-
-                self.radixSort(sample)  # Calling Radix sort method
+                R = Radix()
+                R.radixSort(sample)  # Calling Radix sort method
 
             elif menu == 7:
                 print('Exited successfully')  # user will exit the process successfully
@@ -66,3 +72,5 @@ class Sorting:
 
             else:
                 print("Invalid Operation ")
+C = Sorting()
+C.callSorting()

@@ -1,5 +1,7 @@
 import calendar
 
+
+
 class Calender:
 
     months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October',
@@ -61,6 +63,7 @@ class Calender:
 
     # method for highlighting the date in the in the calender
     def HighlightDateAndDay(self,WantedDate, month, year):
+
         det = 1
         FirstDay = calendar.weekday(year, month, det)
         Month = self.months[month - 1]

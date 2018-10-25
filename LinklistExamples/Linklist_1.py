@@ -14,7 +14,7 @@ class Node:
         self.data = data
         self.next = None
 
-# class for the linklist operation getnode,insert after , insert before , insert at begining
+# class for the linklist operation getnode,insert after , insert before , insert at beginning
 # and insert at the end
 class LinkedList:
     def __init__(self):
@@ -32,7 +32,7 @@ class LinkedList:
     # method use for the getting previous node
     def get_prev_node(self, ref_node):
         current = self.head
-        while (current and current.next != ref_node):
+        while current and current.next != ref_node:
             current = current.next
         return current
 
