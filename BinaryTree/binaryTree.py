@@ -1,5 +1,6 @@
 '''class for creating binary tree'''
 class BinaryTree:
+    TreeData =[]
 
     def __init__(self, data):
 
@@ -39,15 +40,16 @@ class BinaryTree:
 
     def printing(self,treeData,root):
 
-        for val in range(1, len(treeData)):
+        for val in range(1, len(treeData)-1):
             root.insert(treeData[val])
         print('\n')
 
-    def updateBinaryTree(self,valToBeInsert,treeData):
-        treeData.append(valToBeInsert)
-        for val in treeData:
+    def updateBinaryTree(self, valToBeInsert):
+        b = BinaryTree(1)
+        b.TreeData.append(int(valToBeInsert))
+        for val in b.TreeData:
             self.insert(val)
-        self.printing(valToBeInsert,treeData)
+        self.printing(valToBeInsert,  b.TreeData)
 
     def Searching(self,data,treeData):
         if data in treeData:
@@ -56,24 +58,19 @@ class BinaryTree:
         else:
             print('Data is Not Present In Tree')
 
-    def enterData(self,menu):
+    def enterData(self):
         treeData = [int(x) for x in input("=>Please enter the values with spaces you want  :").split()]
-        if menu == 1:
-            return treeData
-        else:
-            return treeData[0]
+        obj = BinaryTree(1)
+        for val in treeData:
+            obj.TreeData.append(val)
+        return treeData
 
-
-    def returnRootVal(self):
-
-        treeData = [int(x) for x in input("=>Please enter the values with spaces you want  :").split()]
-        return treeData[0]
 
     def callingFunctions(self):
 
         while True:
             print("\t1.Create Tree\n"
-                  "\t2.Insert Node in Tree\n"
+                  "\t2.Update Node in Tree\n"
                   "\t3.Delete Node in Tree"
                   "\t3.InOrder Traversing of Tree\n"
                   "\t4.Sorting of Tree\n"
@@ -84,13 +81,19 @@ class BinaryTree:
             menu = int(input("*******Select the sorting option You want to sort*******\n"))
 
             if menu == 1:
-                treeData = self.enterData()
+                treeData = [int(x) for x in input("=>Please enter the values with spaces you want  :").split()]
                 root = BinaryTree(treeData[0])
+                print("Root is ", treeData[0], 'and it is parent ')
+                root.printing(treeData,root)
 
-            root = BinaryTree(treeData[0])
-            print("Root is ", treeData[0], 'and it is parent ')
-            root.printing(treeData,root)
-            valToBeInsert = int(input("Enter value to be Insert => "))
-            root.updateBinaryTree(int(valToBeInsert),treeData)
-            root.inOrderTraversalAndSortedData(root)
 
+
+            elif menu == 2:
+                root = BinaryTree(1)
+                valToBeInsert = input("Enter value to be Insert => ")
+                root.updateBinaryTree(valToBeInsert)
+                root.inOrderTraversalAndSortedData(root)
+
+treeData = 1
+c = BinaryTree(treeData)
+c.callingFunctions()
