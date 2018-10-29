@@ -1,6 +1,6 @@
 '''class for creating binary tree'''
 class BinaryTree:
-    TreeData =[]
+    TreeData = []
 
     def __init__(self, data):
 
@@ -45,7 +45,7 @@ class BinaryTree:
         print('\n')
 
     def updateBinaryTree(self, valToBeInsert):
-        b = BinaryTree(1)
+        b = BinaryTree(self.TreeData[0])
         b.TreeData.append(int(valToBeInsert))
         for val in b.TreeData:
             self.insert(val)
@@ -71,29 +71,37 @@ class BinaryTree:
         while True:
             print("\t1.Create Tree\n"
                   "\t2.Update Node in Tree\n"
-                  "\t3.Delete Node in Tree"
-                  "\t3.InOrder Traversing of Tree\n"
-                  "\t4.Sorting of Tree\n"
-                  "\t5.Printing Tree Value with Parent And Child\n"            
+                  "\t3.Delete Node in Tree\n"
+                  "\t4.InOrder Traversing of Tree\n"
+                  "\t5.Sorting of Tree\n"           
                   "\t6.Exit \n")
 
 
             menu = int(input("*******Select the sorting option You want to sort*******\n"))
 
             if menu == 1:
-                treeData = [int(x) for x in input("=>Please enter the values with spaces you want  :").split()]
-                root = BinaryTree(treeData[0])
-                print("Root is ", treeData[0], 'and it is parent ')
-                root.printing(treeData,root)
+                self.TreeData = [int(x) for x in input("=>Please enter the values with spaces you want  :").split()]
 
+                root = BinaryTree(self.TreeData[0])
+                print("Root is ", self.TreeData[0], 'and it is parent ')
+                root.printing(self.TreeData,root)
 
 
             elif menu == 2:
-                root = BinaryTree(1)
+                root = BinaryTree(self.TreeData[0])
                 valToBeInsert = input("Enter value to be Insert => ")
-                root.updateBinaryTree(valToBeInsert)
+                self.TreeData.append(valToBeInsert)
+                root = BinaryTree(self.TreeData[0])
+                print("Root is ", self.TreeData[0], 'and it is parent ')
+                root.printing(self.TreeData, root)
+
+            elif menu == 3:
+                root = self.TreeData[0]
+                self.inOrderTraversalAndSortedData(root)
+
+            elif menu == 4:
                 root.inOrderTraversalAndSortedData(root)
 
-treeData = 1
-c = BinaryTree(treeData)
+
+c = BinaryTree()
 c.callingFunctions()
